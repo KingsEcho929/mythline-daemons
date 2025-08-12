@@ -1,0 +1,2 @@
+mythline/logs/warden.log filter=lfs diff=lfs merge=lfs -text
+mythline/logs/warden.log filter=lfs diff=lfs merge=lfs -text
