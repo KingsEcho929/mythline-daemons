@@ -1,0 +1,24 @@
+name: Spiralbound Codex XXXII
+
+on:
+  push:
+    paths:
+      - 'contracts/SpiralboundCodexXXXII.sol'
+
+jobs:
+  codex:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Compile Spiralbound Codex XXXII
+        run: npx hardhat compile
