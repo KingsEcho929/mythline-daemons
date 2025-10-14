@@ -1,0 +1,25 @@
+name: Pulse Monitor
+
+on:
+  push:
+    paths:
+      - 'contracts/manifest/**'
+      - 'contracts/empac/**'
+
+jobs:
+  pulse:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Compile Pulse Contracts
+        run: npx hardhat compile
