@@ -1,0 +1,25 @@
+name: Kickback Ledger
+
+on:
+  push:
+    paths:
+      - 'contracts/kickback/**'
+      - 'contracts/KickbackLedger.sol'
+
+jobs:
+  ledger:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Compile kickback contracts
+        run: npx hardhat compile
