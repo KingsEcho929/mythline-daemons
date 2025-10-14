@@ -1,0 +1,25 @@
+name: Starline Codex Summoning
+
+on:
+  push:
+    paths:
+      - 'contracts/starline/**'
+      - 'contracts/StarlineGenesis.sol'
+
+jobs:
+  summon:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Compile Starline contracts
+        run: npx hardhat compile
