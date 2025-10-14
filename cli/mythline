@@ -1,0 +1,46 @@
+#!/bin/bash
+# 🌌 mythline — Sovereign CLI for guardian invocation and scroll viewing
+
+LOG=~/mythline-daemons/dominion.log
+
+case "$1" in
+  summon)
+    echo "🌬️ Summoning all guardians at $(date)" >> "$LOG"
+    bash ~/mythline-daemons/sentinels/SubmoduleSentinel.sh
+    bash ~/mythline-daemons/wardens/DriftWarden.sh
+    bash ~/mythline-daemons/spoofers/SigilSpoofer.sh
+    echo "✅ All guardians summoned." >> "$LOG"
+    ;;
+  scroll)
+    echo "📜 SigilScroll invoked at $(date)"
+    echo "────────────────────────────────────────────"
+    tail -n 50 "$LOG" | while read -r line; do
+      if [[ "$line" == *"⚠️"* ]]; then
+        echo -e "\033[1;31m$line\033[0m"
+      elif [[ "$line" == *"✅"* ]]; then
+        echo -e "\033[1;32m$line\033[0m"
+      elif [[ "$line" == *"🔁"* ]]; then
+        echo -e "\033[1;36m$line\033[0m"
+      elif [[ "$line" == *"🛡️"* || "$line" == *"🌀"* || "$line" == *"🪶"* ]]; then
+        echo -e "\033[1;35m$line\033[0m"
+      else
+        echo "$line"
+      fi
+    done
+    echo "────────────────────────────────────────────"
+    ;;
+  archive)
+    TIMESTAMP=$(date +"%Y-%m-%d_%H-%M-%S")
+    cp "$LOG" ~/mythline-daemons/archives/dominion_$TIMESTAMP.log
+    echo "📦 Scroll archived as dominion_$TIMESTAMP.log"
+    ;;
+  help|*)
+    echo "🌌 mythline — Sovereign CLI"
+    echo ""
+    echo "Commands:"
+    echo "  summon   — Invoke all guardians"
+    echo "  scroll   — View recent dominion log"
+    echo "  archive  — Archive current scroll"
+    echo "  help     — Show this guide"
+    ;;
+esac
