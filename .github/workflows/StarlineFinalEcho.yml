@@ -2,8 +2,9 @@ name: Starline Final Echo
 
 on:
   push:
-    paths:
-      - 'contracts/StarlineFinalEcho.sol'
+    branches:
+      - main
+  workflow_dispatch:
 
 jobs:
   echo:

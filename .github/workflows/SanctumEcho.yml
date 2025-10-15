@@ -2,8 +2,9 @@ name: Sanctum Echo
 
 on:
   push:
-    paths:
-      - 'contracts/SanctumEcho.sol'
+    branches:
+      - main
+  workflow_dispatch:
 
 jobs:
   echo:

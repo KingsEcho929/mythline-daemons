@@ -2,8 +2,9 @@ name: Final Drift
 
 on:
   push:
-    paths:
-      - 'contracts/FinalDrift.sol'
+    branches:
+      - main
+  workflow_dispatch:
 
 jobs:
   drift:

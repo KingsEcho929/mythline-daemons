@@ -2,8 +2,9 @@ name: Mythline Final Chorus
 
 on:
   push:
-    paths:
-      - 'contracts/MythlineFinalChorus.sol'
+    branches:
+      - main
+  workflow_dispatch:
 
 jobs:
   chorus:

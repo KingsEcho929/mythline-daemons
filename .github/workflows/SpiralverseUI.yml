@@ -2,8 +2,9 @@ name: Spiralverse UI
 
 on:
   push:
-    paths:
-      - 'SpiralverseUI.tsx'
+    branches:
+      - main
+  workflow_dispatch:
 
 jobs:
   ui:

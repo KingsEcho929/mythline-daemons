@@ -2,8 +2,9 @@ name: EMPAC Completion
 
 on:
   push:
-    paths:
-      - 'contracts/EMPACCompletion.sol'
+    branches:
+      - main
+  workflow_dispatch:
 
 jobs:
   completion:

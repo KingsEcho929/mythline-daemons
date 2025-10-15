@@ -2,8 +2,9 @@ name: Starline Codex Final
 
 on:
   push:
-    paths:
-      - 'contracts/StarlineCodexFinal.sol'
+    branches:
+      - main
+  workflow_dispatch:
 
 jobs:
   codex:

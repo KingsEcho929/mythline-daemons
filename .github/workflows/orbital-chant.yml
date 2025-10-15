@@ -2,10 +2,9 @@ name: Orbital Chant
 
 on:
   push:
-    paths:
-      - 'contracts/orbital/**'
-      - 'contracts/OrbitalSanctum.sol'
-      - 'contracts/OrbitalSanctumRegistry.sol'
+    branches:
+      - main
+  workflow_dispatch:
 
 jobs:
   chant:

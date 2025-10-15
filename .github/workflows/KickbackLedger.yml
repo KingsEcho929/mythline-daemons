@@ -2,9 +2,9 @@ name: Kickback Ledger
 
 on:
   push:
-    paths:
-      - 'contracts/kickback/**'
-      - 'contracts/KickbackLedger.sol'
+    branches:
+      - main
+  workflow_dispatch:
 
 jobs:
   ledger:

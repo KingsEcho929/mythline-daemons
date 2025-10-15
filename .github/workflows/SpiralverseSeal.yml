@@ -2,8 +2,9 @@ name: Spiralverse Seal
 
 on:
   push:
-    paths:
-      - 'contracts/SpiralverseSeal.sol'
+    branches:
+      - main
+  workflow_dispatch:
 
 jobs:
   seal:

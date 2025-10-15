@@ -2,8 +2,9 @@ name: Constellation Drift
 
 on:
   push:
-    paths:
-      - 'contracts/constellation/**'
+    branches:
+      - main
+  workflow_dispatch:
 
 jobs:
   drift:

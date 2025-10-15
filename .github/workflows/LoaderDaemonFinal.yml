@@ -2,8 +2,9 @@ name: Loader Daemon Final
 
 on:
   push:
-    paths:
-      - 'contracts/LoaderDaemonFinal.sol'
+    branches:
+      - main
+  workflow_dispatch:
 
 jobs:
   summon:

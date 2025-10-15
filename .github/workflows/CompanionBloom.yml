@@ -2,10 +2,9 @@ name: Companion Bloom
 
 on:
   push:
-    paths:
-      - 'companions.ts'
-      - 'companions.json'
-      - 'contracts/companions/**'
+    branches:
+      - main
+  workflow_dispatch:
 
 jobs:
   bloom:

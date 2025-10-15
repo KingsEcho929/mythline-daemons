@@ -2,8 +2,9 @@ name: Genesis Completion
 
 on:
   push:
-    paths:
-      - 'contracts/GenesisCompletion.sol'
+    branches:
+      - main
+  workflow_dispatch:
 
 jobs:
   completion:

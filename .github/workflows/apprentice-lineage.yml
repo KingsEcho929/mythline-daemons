@@ -2,9 +2,9 @@ name: Apprentice Lineage
 
 on:
   push:
-    paths:
-      - 'contracts/ApprenticeLineage.sol'
-      - 'contracts/ApprenticeRegistry.sol'
+    branches:
+      - main
+  workflow_dispatch:
 
 jobs:
   lineage:

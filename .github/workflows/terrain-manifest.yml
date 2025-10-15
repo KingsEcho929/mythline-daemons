@@ -2,8 +2,9 @@ name: Terrain Manifest
 
 on:
   push:
-    paths:
-      - 'contracts/manifest/**'
+    branches:
+      - main
+  workflow_dispatch:
 
 jobs:
   manifest:

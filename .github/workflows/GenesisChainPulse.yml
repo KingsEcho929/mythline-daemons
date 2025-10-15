@@ -2,8 +2,9 @@ name: Genesis Chain Pulse
 
 on:
   push:
-    paths:
-      - 'contracts/GenesisChainPulse.sol'
+    branches:
+      - main
+  workflow_dispatch:
 
 jobs:
   pulse:

@@ -2,8 +2,9 @@ name: Loader Daemon Completion
 
 on:
   push:
-    paths:
-      - 'contracts/LoaderDaemonCompletion.sol'
+    branches:
+      - main
+  workflow_dispatch:
 
 jobs:
   completion:

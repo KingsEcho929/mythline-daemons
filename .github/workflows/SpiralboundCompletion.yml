@@ -2,8 +2,9 @@ name: Spiralbound Completion
 
 on:
   push:
-    paths:
-      - 'contracts/SpiralboundCompletion.sol'
+    branches:
+      - main
+  workflow_dispatch:
 
 jobs:
   completion:

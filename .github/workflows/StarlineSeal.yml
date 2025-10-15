@@ -2,8 +2,9 @@ name: Starline Seal
 
 on:
   push:
-    paths:
-      - 'contracts/StarlineSeal.sol'
+    branches:
+      - main
+  workflow_dispatch:
 
 jobs:
   seal:

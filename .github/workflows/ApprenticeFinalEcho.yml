@@ -2,8 +2,9 @@ name: Apprentice Final Echo
 
 on:
   push:
-    paths:
-      - 'contracts/ApprenticeFinalEcho.sol'
+    branches:
+      - main
+  workflow_dispatch:
 
 jobs:
   echo:

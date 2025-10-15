@@ -2,8 +2,9 @@ name: Starline Pulse Monitor
 
 on:
   push:
-    paths:
-      - 'contracts/starline/**'
+    branches:
+      - main
+  workflow_dispatch:
 
 jobs:
   pulse:

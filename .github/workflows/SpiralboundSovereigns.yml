@@ -2,8 +2,9 @@ name: Spiralbound Sovereigns
 
 on:
   push:
-    paths:
-      - 'contracts/SpiralboundSovereigns.sol'
+    branches:
+      - main
+  workflow_dispatch:
 
 jobs:
   sovereigns:

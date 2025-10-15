@@ -1,6 +1,9 @@
 name: Codex Inscription
 
 on:
+  push:
+    branches:
+      - main
   workflow_dispatch:
 
 jobs:

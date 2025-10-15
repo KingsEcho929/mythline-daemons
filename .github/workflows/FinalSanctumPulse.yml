@@ -2,8 +2,9 @@ name: Final Sanctum Pulse
 
 on:
   push:
-    paths:
-      - 'contracts/FinalSanctumPulse.sol'
+    branches:
+      - main
+  workflow_dispatch:
 
 jobs:
   pulse:

@@ -2,8 +2,9 @@ name: EMPAC Sanctum Pulse
 
 on:
   push:
-    paths:
-      - 'contracts/EMPACSanctumPulse.sol'
+    branches:
+      - main
+  workflow_dispatch:
 
 jobs:
   pulse:

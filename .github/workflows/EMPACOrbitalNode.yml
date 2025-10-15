@@ -2,8 +2,9 @@ name: EMPAC Orbital Node
 
 on:
   push:
-    paths:
-      - 'contracts/EMPACOrbitalNode.sol'
+    branches:
+      - main
+  workflow_dispatch:
 
 jobs:
   ignite:

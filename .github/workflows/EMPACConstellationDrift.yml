@@ -2,8 +2,9 @@ name: EMPAC Constellation Drift
 
 on:
   push:
-    paths:
-      - 'contracts/EMPACConstellationDrift.sol'
+    branches:
+      - main
+  workflow_dispatch:
 
 jobs:
   drift:

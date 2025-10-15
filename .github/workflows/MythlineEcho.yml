@@ -2,8 +2,9 @@ name: Mythline Echo
 
 on:
   push:
-    paths:
-      - 'contracts/MythlineEcho.sol'
+    branches:
+      - main
+  workflow_dispatch:
 
 jobs:
   echo:

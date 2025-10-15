@@ -2,9 +2,9 @@ name: Starline Codex Summoning
 
 on:
   push:
-    paths:
-      - 'contracts/starline/**'
-      - 'contracts/StarlineGenesis.sol'
+    branches:
+      - main
+  workflow_dispatch:
 
 jobs:
   summon:

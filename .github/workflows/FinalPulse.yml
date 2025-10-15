@@ -2,8 +2,9 @@ name: Final Pulse
 
 on:
   push:
-    paths:
-      - 'contracts/FinalPulse.sol'
+    branches:
+      - main
+  workflow_dispatch:
 
 jobs:
   pulse:

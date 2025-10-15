@@ -2,8 +2,9 @@ name: Apprentice Summoner
 
 on:
   push:
-    paths:
-      - 'contracts/ApprenticeSummonerXXII.sol'
+    branches:
+      - main
+  workflow_dispatch:
 
 jobs:
   summon:

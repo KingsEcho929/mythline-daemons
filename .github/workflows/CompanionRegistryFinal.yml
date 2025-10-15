@@ -2,8 +2,9 @@ name: Companion Registry Final
 
 on:
   push:
-    paths:
-      - 'contracts/CompanionRegistryFinal.sol'
+    branches:
+      - main
+  workflow_dispatch:
 
 jobs:
   registry:

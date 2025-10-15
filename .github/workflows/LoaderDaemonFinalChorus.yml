@@ -2,8 +2,9 @@ name: Loader Daemon Final Chorus
 
 on:
   push:
-    paths:
-      - 'contracts/LoaderDaemonFinalChorus.sol'
+    branches:
+      - main
+  workflow_dispatch:
 
 jobs:
   chorus:

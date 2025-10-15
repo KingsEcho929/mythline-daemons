@@ -2,8 +2,9 @@ name: EMPAC Orbital Chant
 
 on:
   push:
-    paths:
-      - 'contracts/EMPACOrbitalChant.sol'
+    branches:
+      - main
+  workflow_dispatch:
 
 jobs:
   chant:

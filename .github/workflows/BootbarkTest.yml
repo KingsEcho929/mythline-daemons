@@ -2,8 +2,9 @@ name: Bootbark Test
 
 on:
   push:
-    paths:
-      - 'test/testBootbark.js'
+    branches:
+      - main
+  workflow_dispatch:
 
 jobs:
   test:

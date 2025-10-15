@@ -2,8 +2,9 @@ name: Spiralbound Codex XXXII
 
 on:
   push:
-    paths:
-      - 'contracts/SpiralboundCodexXXXII.sol'
+    branches:
+      - main
+  workflow_dispatch:
 
 jobs:
   codex:

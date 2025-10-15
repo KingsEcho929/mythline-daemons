@@ -2,8 +2,9 @@ name: Genesis Final Seal
 
 on:
   push:
-    paths:
-      - 'contracts/GenesisFinalSeal.sol'
+    branches:
+      - main
+  workflow_dispatch:
 
 jobs:
   seal:

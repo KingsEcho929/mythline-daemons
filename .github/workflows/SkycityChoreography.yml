@@ -2,9 +2,9 @@ name: Skycity Choreography
 
 on:
   push:
-    paths:
-      - 'contracts/skycity/**'
-      - 'contracts/EldrenSkyCity.sol'
+    branches:
+      - main
+  workflow_dispatch:
 
 jobs:
   choreograph:

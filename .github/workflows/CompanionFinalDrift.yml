@@ -2,8 +2,9 @@ name: Companion Final Drift
 
 on:
   push:
-    paths:
-      - 'contracts/CompanionFinalDrift.sol'
+    branches:
+      - main
+  workflow_dispatch:
 
 jobs:
   drift:

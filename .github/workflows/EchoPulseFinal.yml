@@ -2,8 +2,9 @@ name: Echo Pulse Final
 
 on:
   push:
-    paths:
-      - 'contracts/EchoPulseFinal.sol'
+    branches:
+      - main
+  workflow_dispatch:
 
 jobs:
   echo:

@@ -2,8 +2,9 @@ name: Terrain Drift Pulse
 
 on:
   push:
-    paths:
-      - 'contracts/TerrainDriftPulse.sol'
+    branches:
+      - main
+  workflow_dispatch:
 
 jobs:
   drift:

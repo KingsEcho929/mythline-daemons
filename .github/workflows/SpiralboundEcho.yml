@@ -2,8 +2,9 @@ name: Spiralbound Echo
 
 on:
   push:
-    paths:
-      - 'contracts/SpiralboundEcho.sol'
+    branches:
+      - main
+  workflow_dispatch:
 
 jobs:
   echo:

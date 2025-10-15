@@ -2,8 +2,9 @@ name: Apprentice Completion
 
 on:
   push:
-    paths:
-      - 'contracts/ApprenticeCompletion.sol'
+    branches:
+      - main
+  workflow_dispatch:
 
 jobs:
   completion:

@@ -2,8 +2,9 @@ name: EMPAC Sanctum Registry
 
 on:
   push:
-    paths:
-      - 'contracts/EMPACSanctumRegistry.sol'
+    branches:
+      - main
+  workflow_dispatch:
 
 jobs:
   registry:

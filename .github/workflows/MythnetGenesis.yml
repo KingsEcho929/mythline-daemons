@@ -2,8 +2,9 @@ name: Mythnet Genesis
 
 on:
   push:
-    paths:
-      - 'contracts/MythnetGenesis.sol'
+    branches:
+      - main
+  workflow_dispatch:
 
 jobs:
   genesis:

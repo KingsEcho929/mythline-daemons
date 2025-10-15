@@ -2,8 +2,9 @@ name: EMPAC Sanctum Final
 
 on:
   push:
-    paths:
-      - 'contracts/EMPACSanctumFinal.sol'
+    branches:
+      - main
+  workflow_dispatch:
 
 jobs:
   sanctum:

@@ -2,8 +2,9 @@ name: Sanctum Seal
 
 on:
   push:
-    paths:
-      - 'contracts/SanctumSeal.sol'
+    branches:
+      - main
+  workflow_dispatch:
 
 jobs:
   seal:

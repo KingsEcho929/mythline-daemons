@@ -2,8 +2,9 @@ name: Starline Genesis
 
 on:
   push:
-    paths:
-      - 'contracts/StarlineGenesis.sol'
+    branches:
+      - main
+  workflow_dispatch:
 
 jobs:
   ignite:

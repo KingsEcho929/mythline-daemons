@@ -2,8 +2,9 @@ name: Spiralbound Final Chorus
 
 on:
   push:
-    paths:
-      - 'contracts/SpiralboundFinalChorus.sol'
+    branches:
+      - main
+  workflow_dispatch:
 
 jobs:
   chorus:

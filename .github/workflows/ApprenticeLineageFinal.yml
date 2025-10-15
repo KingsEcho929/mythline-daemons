@@ -2,8 +2,9 @@ name: Apprentice Lineage Final
 
 on:
   push:
-    paths:
-      - 'contracts/ApprenticeLineageFinal.sol'
+    branches:
+      - main
+  workflow_dispatch:
 
 jobs:
   lineage:

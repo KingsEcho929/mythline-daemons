@@ -2,9 +2,9 @@ name: Loader Choreography
 
 on:
   push:
-    paths:
-      - 'loader/**'
-      - 'scripts/**'
+    branches:
+      - main
+  workflow_dispatch:
 
 jobs:
   choreograph:

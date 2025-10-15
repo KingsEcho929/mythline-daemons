@@ -2,9 +2,9 @@ name: Pulse Monitor
 
 on:
   push:
-    paths:
-      - 'contracts/manifest/**'
-      - 'contracts/empac/**'
+    branches:
+      - main
+  workflow_dispatch:
 
 jobs:
   pulse:

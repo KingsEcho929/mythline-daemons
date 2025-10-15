@@ -2,8 +2,9 @@ name: Summoner Deployment
 
 on:
   push:
-    paths:
-      - 'contracts/registry/**'
+    branches:
+      - main
+  workflow_dispatch:
 
 jobs:
   deploy:

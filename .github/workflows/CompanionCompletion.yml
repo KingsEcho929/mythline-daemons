@@ -2,8 +2,9 @@ name: Companion Completion
 
 on:
   push:
-    paths:
-      - 'contracts/CompanionCompletion.sol'
+    branches:
+      - main
+  workflow_dispatch:
 
 jobs:
   completion:

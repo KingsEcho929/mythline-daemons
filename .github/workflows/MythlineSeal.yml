@@ -2,8 +2,9 @@ name: Mythline Seal
 
 on:
   push:
-    paths:
-      - 'contracts/MythlineSeal.sol'
+    branches:
+      - main
+  workflow_dispatch:
 
 jobs:
   seal:

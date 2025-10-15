@@ -2,8 +2,9 @@ name: Eldren Sky City
 
 on:
   push:
-    paths:
-      - 'contracts/EldrenSkyCity.sol'
+    branches:
+      - main
+  workflow_dispatch:
 
 jobs:
   choreograph:

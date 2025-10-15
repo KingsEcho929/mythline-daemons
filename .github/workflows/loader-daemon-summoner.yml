@@ -2,10 +2,9 @@ name: Loader Daemon Summoner
 
 on:
   push:
-    paths:
-      - 'contracts/LoaderDaemonSummonerI.sol'
-      - 'contracts/LoaderDaemonSummonerII.sol'
-      - 'contracts/LoaderDaemonSummonerIII.sol'
+    branches:
+      - main
+  workflow_dispatch:
 
 jobs:
   summon:

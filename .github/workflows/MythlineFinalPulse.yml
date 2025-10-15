@@ -2,8 +2,9 @@ name: Mythline Final Pulse
 
 on:
   push:
-    paths:
-      - 'contracts/MythlineFinalPulse.sol'
+    branches:
+      - main
+  workflow_dispatch:
 
 jobs:
   pulse:

@@ -2,8 +2,9 @@ name: Loader Daemon Final Pulse
 
 on:
   push:
-    paths:
-      - 'contracts/LoaderDaemonFinalPulse.sol'
+    branches:
+      - main
+  workflow_dispatch:
 
 jobs:
   pulse:
