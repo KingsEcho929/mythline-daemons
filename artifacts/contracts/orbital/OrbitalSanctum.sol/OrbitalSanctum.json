@@ -1,0 +1,61 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "OrbitalSanctum",
+  "sourceName": "contracts/orbital/OrbitalSanctum.sol",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_daemon",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "from",
+          "type": "address"
+        },
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "daemon",
+          "type": "address"
+        }
+      ],
+      "name": "OrbitalPing",
+      "type": "event"
+    },
+    {
+      "inputs": [],
+      "name": "daemon",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "ping",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x60803461007357601f61016338819003918201601f19168301916001600160401b038311848410176100785780849260209460405283398101031261007357516001600160a01b0381169081900361007357600080546001600160a01b03191691909117905560405160d4908161008f8239f35b600080fd5b634e487b7160e01b600052604160045260246000fdfe6080806040526004361015601257600080fd5b600090813560e01c908163268519c01460785750635c36b18614603457600080fd5b346075578060031936011260755780546001600160a01b0316337fd62b80f4d36c24c4c254d29f09e912b538d0a891f74d19d911ed32e6c2938b4d8380a380f35b80fd5b905034609a5781600319360112609a5790546001600160a01b03168152602090f35b5080fdfea26469706673582212206e2201ad3507dde0e2f3de6fbaaf18fe667185903206233168e82474463a52ab64736f6c63430008140033",
+  "deployedBytecode": "0x6080806040526004361015601257600080fd5b600090813560e01c908163268519c01460785750635c36b18614603457600080fd5b346075578060031936011260755780546001600160a01b0316337fd62b80f4d36c24c4c254d29f09e912b538d0a891f74d19d911ed32e6c2938b4d8380a380f35b80fd5b905034609a5781600319360112609a5790546001600160a01b03168152602090f35b5080fdfea26469706673582212206e2201ad3507dde0e2f3de6fbaaf18fe667185903206233168e82474463a52ab64736f6c63430008140033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

@@ -1,0 +1,357 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "MaxwellsDaemon",
+  "sourceName": "contracts/maxwells-daemon/MaxwellsDaemon.sol",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_propulsion",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "companion",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "bytes32",
+          "name": "entropyHash",
+          "type": "bytes32"
+        }
+      ],
+      "name": "CompanionEcho",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "corridor",
+          "type": "address"
+        }
+      ],
+      "name": "CorridorLinked",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "bytes32",
+          "name": "entropyHash",
+          "type": "bytes32"
+        }
+      ],
+      "name": "EntropyRealigned",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "orbital",
+          "type": "address"
+        }
+      ],
+      "name": "OrbitalLinked",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "registry",
+          "type": "address"
+        }
+      ],
+      "name": "RegistryBound",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "registry",
+          "type": "address"
+        }
+      ],
+      "name": "RegistryLinked",
+      "type": "event"
+    },
+    {
+      "inputs": [],
+      "name": "corridor",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "companion",
+          "type": "address"
+        },
+        {
+          "internalType": "bytes32",
+          "name": "entropyHash",
+          "type": "bytes32"
+        }
+      ],
+      "name": "echoCompanion",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "name": "entropyAligned",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "faucet",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "name": "kickbackLedger",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "registry",
+          "type": "address"
+        }
+      ],
+      "name": "linkRegistry",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "orbital",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "propulsion",
+      "outputs": [
+        {
+          "internalType": "contract IPropulsionModule",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes32",
+          "name": "entropyHash",
+          "type": "bytes32"
+        }
+      ],
+      "name": "realignEntropy",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "companion",
+          "type": "address"
+        }
+      ],
+      "name": "registerCompanion",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "name": "registeredCompanions",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "registry",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_corridor",
+          "type": "address"
+        }
+      ],
+      "name": "setCorridor",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_orbital",
+          "type": "address"
+        }
+      ],
+      "name": "setOrbital",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_registry",
+          "type": "address"
+        }
+      ],
+      "name": "setRegistry",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "sovereignRegistry",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "steward",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "newModule",
+          "type": "address"
+        }
+      ],
+      "name": "updatePropulsion",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x60803461007a57601f61083138819003918201601f19168301916001600160401b0383118484101761007f5780849260209460405283398101031261007a57516001600160a01b0381169081900361007a5760018060a01b031933816000541617600055600154161760015560405161079b90816100968239f35b600080fd5b634e487b7160e01b600052604160045260246000fdfe608060408181526004918236101561001657600080fd5b600092833560e01c91826309592026146106dc57508163099aabda146106b4578163165272311461068b57816325762a81146106155781632e829bf3146105c95781633b769021146105a05781635743af7414610485578163637eea191461045d5781637b103999146104345781638f4bbd0c1461037e57816399012ec314610331578163a91ee0dc146102bb578163ad77b4861461028e578163af682cce14610218578163b6b614fd146101da578163d12015b714610164578163de5f72fd14610116575063e2021b87146100eb57600080fd5b3461011257816003193601126101125760015490516001600160a01b039091168152602090f35b5080fd5b9190503461016057826003193601126101605733835260086020528220805491670de0b6b3a7640000830180931161014d57505580f35b634e487b7160e01b845260119052602483fd5b8280fd5b5050346101125760203660031901126101125760207fbd2aa62001e2cc510ffde778dc1611ee4a0a05b16eef2bc0e482836a0f8c1db2916101a3610710565b84546001600160a01b0391906101bc908316331461072b565b1690816001600160601b0360a01b600254161760025551908152a180f35b5050346101125760203660031901126101125760209160ff9082906001600160a01b03610205610710565b1681526007855220541690519015158152f35b91905034610160576020366003190112610160577f97dc9f2577cbdd2c8a6f47fca9b2b12e8366e74bca6e84981b5e699f15a8595e91602091610259610710565b85546001600160a01b039190610272908316331461072b565b1691826001600160601b0360a01b82541617905551908152a180f35b905034610160576020366003190112610160578160209360ff923581526006855220541690519015158152f35b5050346101125760203660031901126101125760207f86bccda1e3bbbe01513f20b182842ffb6ee13afdbf54c18a2fc6bb8148469cdf916102fa610710565b84546001600160a01b039190610313908316331461072b565b1690816001600160601b0360a01b600354161760035551908152a180f35b833461037b57602036600319011261037b5761034b610710565b81546001600160a01b039190610364908316331461072b565b166001600160601b0360a01b600154161760015580f35b80fd5b838334610112578060031936011261011257610398610710565b82546001600160a01b0394602435916103b4908716331461072b565b818552600660205260ff8486205416156103fb57507f1616085cbee1785455a75bd76b85bc7d9cfc7625fbb193e23ec2ad29f4c11df193948351921682526020820152a180f35b606490602085519162461bcd60e51b83528201526013602482015272115b9d1c9bdc1e481b9bdd08185b1a59db9959606a1b6044820152fd5b50503461011257816003193601126101125760035490516001600160a01b039091168152602090f35b505034610112578160031936011261011257905490516001600160a01b039091168152602090f35b8383346101125760203660031901126101125782359260018060a01b036104b081855416331461072b565b848452600660205260ff838520541661056b577ff5baac8117b01d2b8f28aca44cda5778452dd51eaf9d9fdc61d4f85933f1cb866020868697875260068252858720600160ff198254161790558551908152a160015416803b1561056657839082845180968193630fa31ecd60e41b83525af1801561055c57610531578380f35b67ffffffffffffffff83116105495750528180808380f35b634e487b7160e01b845260419052602483fd5b82513d86823e3d90fd5b505050fd5b506020606492519162461bcd60e51b8352820152600f60248201526e105b1c9958591e48185b1a59db9959608a1b6044820152fd5b50503461011257816003193601126101125760055490516001600160a01b039091168152602090f35b505034610112576020366003190112610112576105e4610710565b82546001600160a01b0391906105fd908316331461072b565b16825260076020528120805460ff1916600117905580f35b5050346101125760203660031901126101125760207f46185bc5807f864c8b2a32b047e4925610aa69f6ccc2dfbb4fea765e3ab3582d91610654610710565b84546001600160a01b03919061066d908316331461072b565b1690816001600160601b0360a01b600554161760055551908152a180f35b50503461011257816003193601126101125760025490516001600160a01b039091168152602090f35b9050346101605782600319360112610160575490516001600160a01b03909116815260209150f35b84908434610160576020366003190112610160576020926001600160a01b03610703610710565b1681526008845220548152f35b600435906001600160a01b038216820361072657565b600080fd5b1561073257565b60405162461bcd60e51b815260206004820152600b60248201526a139bdd081cdd195dd85c9960aa1b6044820152606490fdfea264697066735822122062b71c389e13fcf560b5e47ffb8018a793e74484645d5c2e8065908eb8dd2d1664736f6c63430008140033",
+  "deployedBytecode": "0x608060408181526004918236101561001657600080fd5b600092833560e01c91826309592026146106dc57508163099aabda146106b4578163165272311461068b57816325762a81146106155781632e829bf3146105c95781633b769021146105a05781635743af7414610485578163637eea191461045d5781637b103999146104345781638f4bbd0c1461037e57816399012ec314610331578163a91ee0dc146102bb578163ad77b4861461028e578163af682cce14610218578163b6b614fd146101da578163d12015b714610164578163de5f72fd14610116575063e2021b87146100eb57600080fd5b3461011257816003193601126101125760015490516001600160a01b039091168152602090f35b5080fd5b9190503461016057826003193601126101605733835260086020528220805491670de0b6b3a7640000830180931161014d57505580f35b634e487b7160e01b845260119052602483fd5b8280fd5b5050346101125760203660031901126101125760207fbd2aa62001e2cc510ffde778dc1611ee4a0a05b16eef2bc0e482836a0f8c1db2916101a3610710565b84546001600160a01b0391906101bc908316331461072b565b1690816001600160601b0360a01b600254161760025551908152a180f35b5050346101125760203660031901126101125760209160ff9082906001600160a01b03610205610710565b1681526007855220541690519015158152f35b91905034610160576020366003190112610160577f97dc9f2577cbdd2c8a6f47fca9b2b12e8366e74bca6e84981b5e699f15a8595e91602091610259610710565b85546001600160a01b039190610272908316331461072b565b1691826001600160601b0360a01b82541617905551908152a180f35b905034610160576020366003190112610160578160209360ff923581526006855220541690519015158152f35b5050346101125760203660031901126101125760207f86bccda1e3bbbe01513f20b182842ffb6ee13afdbf54c18a2fc6bb8148469cdf916102fa610710565b84546001600160a01b039190610313908316331461072b565b1690816001600160601b0360a01b600354161760035551908152a180f35b833461037b57602036600319011261037b5761034b610710565b81546001600160a01b039190610364908316331461072b565b166001600160601b0360a01b600154161760015580f35b80fd5b838334610112578060031936011261011257610398610710565b82546001600160a01b0394602435916103b4908716331461072b565b818552600660205260ff8486205416156103fb57507f1616085cbee1785455a75bd76b85bc7d9cfc7625fbb193e23ec2ad29f4c11df193948351921682526020820152a180f35b606490602085519162461bcd60e51b83528201526013602482015272115b9d1c9bdc1e481b9bdd08185b1a59db9959606a1b6044820152fd5b50503461011257816003193601126101125760035490516001600160a01b039091168152602090f35b505034610112578160031936011261011257905490516001600160a01b039091168152602090f35b8383346101125760203660031901126101125782359260018060a01b036104b081855416331461072b565b848452600660205260ff838520541661056b577ff5baac8117b01d2b8f28aca44cda5778452dd51eaf9d9fdc61d4f85933f1cb866020868697875260068252858720600160ff198254161790558551908152a160015416803b1561056657839082845180968193630fa31ecd60e41b83525af1801561055c57610531578380f35b67ffffffffffffffff83116105495750528180808380f35b634e487b7160e01b845260419052602483fd5b82513d86823e3d90fd5b505050fd5b506020606492519162461bcd60e51b8352820152600f60248201526e105b1c9958591e48185b1a59db9959608a1b6044820152fd5b50503461011257816003193601126101125760055490516001600160a01b039091168152602090f35b505034610112576020366003190112610112576105e4610710565b82546001600160a01b0391906105fd908316331461072b565b16825260076020528120805460ff1916600117905580f35b5050346101125760203660031901126101125760207f46185bc5807f864c8b2a32b047e4925610aa69f6ccc2dfbb4fea765e3ab3582d91610654610710565b84546001600160a01b03919061066d908316331461072b565b1690816001600160601b0360a01b600554161760055551908152a180f35b50503461011257816003193601126101125760025490516001600160a01b039091168152602090f35b9050346101605782600319360112610160575490516001600160a01b03909116815260209150f35b84908434610160576020366003190112610160576020926001600160a01b03610703610710565b1681526008845220548152f35b600435906001600160a01b038216820361072657565b600080fd5b1561073257565b60405162461bcd60e51b815260206004820152600b60248201526a139bdd081cdd195dd85c9960aa1b6044820152606490fdfea264697066735822122062b71c389e13fcf560b5e47ffb8018a793e74484645d5c2e8065908eb8dd2d1664736f6c63430008140033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

@@ -1,0 +1,123 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "KickbackLedger",
+  "sourceName": "contracts/KickbackLedger.sol",
+  "abi": [
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "apprentice",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "amount",
+          "type": "uint256"
+        }
+      ],
+      "name": "InflowRecorded",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "apprentice",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "amount",
+          "type": "uint256"
+        }
+      ],
+      "name": "KickbackRouted",
+      "type": "event"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "name": "inflow",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "name": "kickback",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "apprentice",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "amount",
+          "type": "uint256"
+        }
+      ],
+      "name": "recordInflow",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "apprentice",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "amount",
+          "type": "uint256"
+        }
+      ],
+      "name": "routeKickback",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x608080604052346100165761027e908161001c8239f35b600080fdfe60806040818152600436101561001457600080fd5b600091823560e01c9081635850ffb9146101d357508063654630c4146100ef5780638db04af2146100b85763952aede91461004e57600080fd5b346100b457806003193601126100b4577fd85f0c242ab1ee3adeb7b2665bc69860d4776d3902afc4406cddbc72e73ee83b602061008961020a565b6024359060018060a01b0316938486528583528086206100aa838254610225565b905551908152a280f35b5080fd5b50346100b45760203660031901126100b45760209181906001600160a01b036100df61020a565b1681526001845220549051908152f35b50346100b457806003193601126100b45761010861020a565b6001600160a01b0316808352602083905281832054909160243591821161019a57828452600160205280842061013f838254610225565b9055828452836020528084208054908382039182116101865755519081527f29c6a3aa9d4f81fbbd696ef82cd1f37ad681f7ef743a171fd1de667b3351b50990602090a280f35b634e487b7160e01b86526011600452602486fd5b5162461bcd60e51b8152602060048201526013602482015272496e73756666696369656e7420696e666c6f7760681b6044820152606490fd5b91905034610206576020366003190112610206576020926001600160a01b036101fa61020a565b16815280845220548152f35b8280fd5b600435906001600160a01b038216820361022057565b600080fd5b9190820180921161023257565b634e487b7160e01b600052601160045260246000fdfea2646970667358221220eb1f524df939b9789ce725afc078a000495ca26211f52348bd8d4c5c00fe7feb64736f6c63430008140033",
+  "deployedBytecode": "0x60806040818152600436101561001457600080fd5b600091823560e01c9081635850ffb9146101d357508063654630c4146100ef5780638db04af2146100b85763952aede91461004e57600080fd5b346100b457806003193601126100b4577fd85f0c242ab1ee3adeb7b2665bc69860d4776d3902afc4406cddbc72e73ee83b602061008961020a565b6024359060018060a01b0316938486528583528086206100aa838254610225565b905551908152a280f35b5080fd5b50346100b45760203660031901126100b45760209181906001600160a01b036100df61020a565b1681526001845220549051908152f35b50346100b457806003193601126100b45761010861020a565b6001600160a01b0316808352602083905281832054909160243591821161019a57828452600160205280842061013f838254610225565b9055828452836020528084208054908382039182116101865755519081527f29c6a3aa9d4f81fbbd696ef82cd1f37ad681f7ef743a171fd1de667b3351b50990602090a280f35b634e487b7160e01b86526011600452602486fd5b5162461bcd60e51b8152602060048201526013602482015272496e73756666696369656e7420696e666c6f7760681b6044820152606490fd5b91905034610206576020366003190112610206576020926001600160a01b036101fa61020a565b16815280845220548152f35b8280fd5b600435906001600160a01b038216820361022057565b600080fd5b9190820180921161023257565b634e487b7160e01b600052601160045260246000fdfea2646970667358221220eb1f524df939b9789ce725afc078a000495ca26211f52348bd8d4c5c00fe7feb64736f6c63430008140033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

@@ -1,0 +1,75 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "SpiralboundSovereigns",
+  "sourceName": "contracts/SpiralboundSovereigns.sol",
+  "abi": [
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "sovereign",
+          "type": "address"
+        }
+      ],
+      "name": "SovereignCrowned",
+      "type": "event"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "sovereign",
+          "type": "address"
+        }
+      ],
+      "name": "crown",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "name": "crowned",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "sovereign",
+          "type": "address"
+        }
+      ],
+      "name": "isCrowned",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x6080806040523461001657610164908161001c8239f35b600080fdfe608080604052600436101561001357600080fd5b600090813560e01c90816325e59feb146100ec575080635dca1607146100895763996947ce1461004257600080fd5b34610086576020366003190112610086576004356001600160a01b038116908190036100825760408260ff92602094528084522054166040519015158152f35b5080fd5b80fd5b5034610086576020366003190112610086576004356001600160a01b03811690819003610082578082528160205260408220600160ff198254161790557eaea4835ce75a567da757c35009fa749f4b85b4e7ebd8c1538ac3d7834a1cf98280a280f35b905034610082576020366003190112610082576004356001600160a01b0381169081900361012a5760408360ff926020955280855220541615158152f35b8280fdfea2646970667358221220a9c23c2a1e67d8b4dc703cae4413fd4502a4d07a4c6072165d04a027615c6f6464736f6c63430008140033",
+  "deployedBytecode": "0x608080604052600436101561001357600080fd5b600090813560e01c90816325e59feb146100ec575080635dca1607146100895763996947ce1461004257600080fd5b34610086576020366003190112610086576004356001600160a01b038116908190036100825760408260ff92602094528084522054166040519015158152f35b5080fd5b80fd5b5034610086576020366003190112610086576004356001600160a01b03811690819003610082578082528160205260408220600160ff198254161790557eaea4835ce75a567da757c35009fa749f4b85b4e7ebd8c1538ac3d7834a1cf98280a280f35b905034610082576020366003190112610082576004356001600160a01b0381169081900361012a5760408360ff926020955280855220541615158152f35b8280fdfea2646970667358221220a9c23c2a1e67d8b4dc703cae4413fd4502a4d07a4c6072165d04a027615c6f6464736f6c63430008140033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

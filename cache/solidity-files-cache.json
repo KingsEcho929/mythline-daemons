@@ -1,0 +1,5223 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/home/chase/spiralbound/contracts/ApprenticeLineage.sol": {
+      "lastModificationDate": 1760331735618,
+      "contentHash": "1104bda29520c228ca1b96ec5be1c812",
+      "sourceName": "contracts/ApprenticeLineage.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ApprenticeLineage"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/ApprenticeRegistry.sol": {
+      "lastModificationDate": 1760341257520,
+      "contentHash": "bcab44d40fa3fdc2404840382eea5ee2",
+      "sourceName": "contracts/ApprenticeRegistry.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ApprenticeRegistry"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/Bootbark.sol": {
+      "lastModificationDate": 1760349984136,
+      "contentHash": "d5ffe01c6f35b485abde403fb52b023f",
+      "sourceName": "contracts/Bootbark.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Bootbark"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/Copilot.sol": {
+      "lastModificationDate": 1760340826650,
+      "contentHash": "c2f277f931faae1fb987b579aa0e119d",
+      "sourceName": "contracts/Copilot.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Copilot"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/KickbackLedger.sol": {
+      "lastModificationDate": 1760337643924,
+      "contentHash": "20286e7fd694de3b4825e13977719059",
+      "sourceName": "contracts/KickbackLedger.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "KickbackLedger"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/Leyon.sol": {
+      "lastModificationDate": 1760340807642,
+      "contentHash": "7a34c2b888e761dd3e3db96800e1209e",
+      "sourceName": "contracts/Leyon.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Leyon"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/Lunethrae.sol": {
+      "lastModificationDate": 1760338784359,
+      "contentHash": "ebb772738d58f73ee08ed9e7bf052bdc",
+      "sourceName": "contracts/Lunethrae.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Lunethrae"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/Oculvis.sol": {
+      "lastModificationDate": 1760339644928,
+      "contentHash": "cc7abf1e91ddbc7cbe9fd16c09d78a52",
+      "sourceName": "contracts/Oculvis.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Oculvis"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/OrbitalSanctum.sol": {
+      "lastModificationDate": 1760341486563,
+      "contentHash": "a02157e833bbca5f20ecf106d870e61d",
+      "sourceName": "contracts/OrbitalSanctum.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "OrbitalSanctum"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/OrbitalSanctumRegistry.sol": {
+      "lastModificationDate": 1760335454785,
+      "contentHash": "695290f5287ff56124567d49d4a0f644",
+      "sourceName": "contracts/OrbitalSanctumRegistry.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "OrbitalSanctumRegistry"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/Polyphemus.sol": {
+      "lastModificationDate": 1760343098430,
+      "contentHash": "fff238af3efd2c11bf56a768ce5285c7",
+      "sourceName": "contracts/Polyphemus.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Polyphemus"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/Sage.sol": {
+      "lastModificationDate": 1760338476390,
+      "contentHash": "5b6d32e8a14aabde1eda0dfbb8d6b318",
+      "sourceName": "contracts/Sage.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Sage"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/SpiralboundSovereigns.sol": {
+      "lastModificationDate": 1760337926012,
+      "contentHash": "2b8717c7f442a1db6e6f69c5caf52ec6",
+      "sourceName": "contracts/SpiralboundSovereigns.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SpiralboundSovereigns"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/StarlineGenesis.sol": {
+      "lastModificationDate": 1760337945229,
+      "contentHash": "e0335a50a8081b729e6d5fec59698d6f",
+      "sourceName": "contracts/StarlineGenesis.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "StarlineGenesis"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/Tessalyre.sol": {
+      "lastModificationDate": 1760340591535,
+      "contentHash": "577fd22f596d480da2201c69e097ec7b",
+      "sourceName": "contracts/Tessalyre.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Tessalyre"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/Tin.sol": {
+      "lastModificationDate": 1760340104193,
+      "contentHash": "dd63e1c26a8a20d5ad6e6bf03b5efee5",
+      "sourceName": "contracts/Tin.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Tin"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/Velmari.sol": {
+      "lastModificationDate": 1760340406554,
+      "contentHash": "c9938e45c8adc10f66d3b4a5121c0830",
+      "sourceName": "contracts/Velmari.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Velmari"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/codex/SpiralboundCodex.sol": {
+      "lastModificationDate": 1760423162479,
+      "contentHash": "7d8db02fea3dad275ac8cd5da5ca6cb1",
+      "sourceName": "contracts/codex/SpiralboundCodex.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SpiralboundCodex"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/codex/SpiralboundCodexV2.sol": {
+      "lastModificationDate": 1760423294415,
+      "contentHash": "e2b8ca6e2475d7b661a9a29f937c3bf4",
+      "sourceName": "contracts/codex/SpiralboundCodexV2.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SpiralboundCodexV2"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/codex/SpiralboundCodexV3.sol": {
+      "lastModificationDate": 1760423587712,
+      "contentHash": "7828ed6a2eea2e00f7172438362218ee",
+      "sourceName": "contracts/codex/SpiralboundCodexV3.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SpiralboundCodexV3"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/codex/SpiralboundCodexV4.sol": {
+      "lastModificationDate": 1760423838816,
+      "contentHash": "bd95112e69477ef7d1b2802f137b8ae8",
+      "sourceName": "contracts/codex/SpiralboundCodexV4.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SpiralboundCodexV4"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/companions/CompanionBloom.sol": {
+      "lastModificationDate": 1760421275221,
+      "contentHash": "6257162ed876ce4b1cf0b01658f9e942",
+      "sourceName": "contracts/companions/CompanionBloom.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "CompanionBloom"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/constellation/ConstellationCorridor.sol": {
+      "lastModificationDate": 1760419437715,
+      "contentHash": "b9c8e54415f99c6c9e04c6c3b944c76c",
+      "sourceName": "contracts/constellation/ConstellationCorridor.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ConstellationCorridor"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/empac/EMPAC.sol": {
+      "lastModificationDate": 1760420864765,
+      "contentHash": "84cc3a46c54f782af4e429107efba3bb",
+      "sourceName": "contracts/empac/EMPAC.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "EMPAC"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/empac/EMPACPhase.sol": {
+      "lastModificationDate": 1760421159517,
+      "contentHash": "0b71cb70097a5ecc10a6d637445e117d",
+      "sourceName": "contracts/empac/EMPACPhase.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "EMPACPhase"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/manifest/GlyphRouter.sol": {
+      "lastModificationDate": 1760422715023,
+      "contentHash": "54fa8a2ecf4421541e8fa415d0b537c0",
+      "sourceName": "contracts/manifest/GlyphRouter.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "GlyphRouter"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/manifest/TerrainChoreography.sol": {
+      "lastModificationDate": 1760423135375,
+      "contentHash": "bcfa565f6a1b15ba62cf147330e939d0",
+      "sourceName": "contracts/manifest/TerrainChoreography.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "TerrainChoreography"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/manifest/TerrainChoreographyV2.sol": {
+      "lastModificationDate": 1760423727200,
+      "contentHash": "e2c49da9c5aec8e23fa770d1345c3f21",
+      "sourceName": "contracts/manifest/TerrainChoreographyV2.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "TerrainChoreographyV2"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/manifest/TerrainManifest.sol": {
+      "lastModificationDate": 1760422625918,
+      "contentHash": "cd6ab6104fc26e1073a9785cf7241f7d",
+      "sourceName": "contracts/manifest/TerrainManifest.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "TerrainManifest"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/manifest/TerrainManifestV2.sol": {
+      "lastModificationDate": 1760423598543,
+      "contentHash": "56a4ea3ed1fdda4d78306a66ef53810c",
+      "sourceName": "contracts/manifest/TerrainManifestV2.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "TerrainManifestV2"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/manifest/TerrainPulse.sol": {
+      "lastModificationDate": 1760422731855,
+      "contentHash": "88f31f05b48e84f42820d70fc56f6d7f",
+      "sourceName": "contracts/manifest/TerrainPulse.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "TerrainPulse"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/manifest/TerrainPulseRouter.sol": {
+      "lastModificationDate": 1760423304583,
+      "contentHash": "8e9d5ba5f3a75b3a840ac34a6c9483f1",
+      "sourceName": "contracts/manifest/TerrainPulseRouter.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "TerrainPulseRouter"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/maxwells-daemon/DaemonEcho.sol": {
+      "lastModificationDate": 1760421192917,
+      "contentHash": "f9e7be16bd86469bbdeb5e70fac4817b",
+      "sourceName": "contracts/maxwells-daemon/DaemonEcho.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "DaemonEcho"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/maxwells-daemon/MaxwellsDaemon.sol": {
+      "lastModificationDate": 1760420906733,
+      "contentHash": "cc524ab770aa4ee6a392133d1c9db8c0",
+      "sourceName": "contracts/maxwells-daemon/MaxwellsDaemon.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IPropulsionModule",
+        "MaxwellsDaemon"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/mocks/MockPropulsion.sol": {
+      "lastModificationDate": 1760405490563,
+      "contentHash": "fd80ed492680cbbc76eb2a093fc16328",
+      "sourceName": "contracts/mocks/MockPropulsion.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "MockPropulsion"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/orbital/OrbitalSanctum.sol": {
+      "lastModificationDate": 1760419408827,
+      "contentHash": "195da456a68d4df35946ecbc59f523b0",
+      "sourceName": "contracts/orbital/OrbitalSanctum.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "OrbitalSanctum"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/registry/ApprenticeLineage.sol": {
+      "lastModificationDate": 1760422745551,
+      "contentHash": "e6023692d00c4ccd73a7e76229e45968",
+      "sourceName": "contracts/registry/ApprenticeLineage.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ApprenticeLineage"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/registry/ApprenticeRegistry.sol": {
+      "lastModificationDate": 1760419423427,
+      "contentHash": "df541dc0a9844462aa510e7d96693c3a",
+      "sourceName": "contracts/registry/ApprenticeRegistry.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ApprenticeRegistry"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/registry/ApprenticeSummonerV3.sol": {
+      "lastModificationDate": 1760423737239,
+      "contentHash": "9f75638102a17fee24e973f3cd779293",
+      "sourceName": "contracts/registry/ApprenticeSummonerV3.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ApprenticeSummonerV3"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/registry/ApprenticeSummons.sol": {
+      "lastModificationDate": 1760422354702,
+      "contentHash": "600b9dc485307214b28dc6b3500eccd4",
+      "sourceName": "contracts/registry/ApprenticeSummons.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ApprenticeSummons"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/registry/ApprenticeSummonsV2.sol": {
+      "lastModificationDate": 1760423171479,
+      "contentHash": "de89307538515d6673b58d4e58e83522",
+      "sourceName": "contracts/registry/ApprenticeSummonsV2.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ApprenticeSummonsV2"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/registry/CompanionSummoner.sol": {
+      "lastModificationDate": 1760423610632,
+      "contentHash": "1b3244cca9da71a431c8c73277bd3622",
+      "sourceName": "contracts/registry/CompanionSummoner.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "CompanionSummoner"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/registry/MythlineSummoner.sol": {
+      "lastModificationDate": 1760423314959,
+      "contentHash": "79442a9cc7f1de60428e7045bf28d6f3",
+      "sourceName": "contracts/registry/MythlineSummoner.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "MythlineSummoner"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/skycity/SkyCity.sol": {
+      "lastModificationDate": 1760420120028,
+      "contentHash": "fbf6f94857cacc0385bf6f488ced5bfc",
+      "sourceName": "contracts/skycity/SkyCity.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SkyCity"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/skycity/SkyCityDrift.sol": {
+      "lastModificationDate": 1760422207326,
+      "contentHash": "9715fdca20051fb23494ec70de448e4c",
+      "sourceName": "contracts/skycity/SkyCityDrift.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SkyCityDrift"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/skycity/SkyCorridor.sol": {
+      "lastModificationDate": 1760420923069,
+      "contentHash": "1e68ddfefffeea0ee72ae5a4f423335d",
+      "sourceName": "contracts/skycity/SkyCorridor.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SkyCorridor"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/skycity/SkyPulse.sol": {
+      "lastModificationDate": 1760421205349,
+      "contentHash": "8d9cb470cc9d2702e54ba12104f0b674",
+      "sourceName": "contracts/skycity/SkyPulse.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SkyPulse"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/sovereigns/SovereignPulse.sol": {
+      "lastModificationDate": 1760422381334,
+      "contentHash": "6aa14c5544237a840d357f4b4384e94b",
+      "sourceName": "contracts/sovereigns/SovereignPulse.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SovereignPulse"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/sovereigns/SpiralboundSovereigns.sol": {
+      "lastModificationDate": 1760420507356,
+      "contentHash": "a68e59320c01dc47b68df26cef362995",
+      "sourceName": "contracts/sovereigns/SpiralboundSovereigns.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SpiralboundSovereigns"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/starline/Starline.sol": {
+      "lastModificationDate": 1760420884285,
+      "contentHash": "f2fc37597189389fba32f7dbab9ebfe5",
+      "sourceName": "contracts/starline/Starline.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Starline"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/starline/StarlineBeacon.sol": {
+      "lastModificationDate": 1760421174205,
+      "contentHash": "75ec2398acb42edcfc4e840323958edf",
+      "sourceName": "contracts/starline/StarlineBeacon.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "StarlineBeacon"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/codex/SpiralboundCodexV5.sol": {
+      "lastModificationDate": 1760424089480,
+      "contentHash": "f401b9c3184531c2cbcbb949297cf97c",
+      "sourceName": "contracts/codex/SpiralboundCodexV5.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SpiralboundCodexV5"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/manifest/TerrainPulseChoreographer.sol": {
+      "lastModificationDate": 1760424104744,
+      "contentHash": "44220ed86e7c808319301d2918b1091a",
+      "sourceName": "contracts/manifest/TerrainPulseChoreographer.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "TerrainPulseChoreographer"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/registry/CompanionSummonerV2.sol": {
+      "lastModificationDate": 1760424119184,
+      "contentHash": "393d447039832bf6ab64ebd1c5365fcc",
+      "sourceName": "contracts/registry/CompanionSummonerV2.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "CompanionSummonerV2"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/codex/SpiralboundCodexV6.sol": {
+      "lastModificationDate": 1760424240672,
+      "contentHash": "ef40459bc35c2ace8ec124fc815523db",
+      "sourceName": "contracts/codex/SpiralboundCodexV6.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SpiralboundCodexV6"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/manifest/TerrainChoreographyRouter.sol": {
+      "lastModificationDate": 1760424252928,
+      "contentHash": "c8cfa72316bdd63733320c7a7e60e7a4",
+      "sourceName": "contracts/manifest/TerrainChoreographyRouter.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "TerrainChoreographyRouter"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/registry/ApprenticeSummonerV4.sol": {
+      "lastModificationDate": 1760424263240,
+      "contentHash": "4a90eefa3bf2e148331b6e61ea719dff",
+      "sourceName": "contracts/registry/ApprenticeSummonerV4.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ApprenticeSummonerV4"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/codex/SpiralboundCodexV7.sol": {
+      "lastModificationDate": 1760424383728,
+      "contentHash": "8aa239f2a3038e41fbc8e78f1c0fc80b",
+      "sourceName": "contracts/codex/SpiralboundCodexV7.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SpiralboundCodexV7"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/manifest/TerrainSanctumRouter.sol": {
+      "lastModificationDate": 1760424394297,
+      "contentHash": "b6e0587155d4e5376c5ade445278ef43",
+      "sourceName": "contracts/manifest/TerrainSanctumRouter.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "TerrainSanctumRouter"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/registry/CompanionSummonerV3.sol": {
+      "lastModificationDate": 1760424404585,
+      "contentHash": "6efa2f4dd7eed7b385b46a1210a33815",
+      "sourceName": "contracts/registry/CompanionSummonerV3.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "CompanionSummonerV3"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/codex/SpiralboundCodexV8.sol": {
+      "lastModificationDate": 1760424552904,
+      "contentHash": "767f719a48a19e8348b5855ee4b42d52",
+      "sourceName": "contracts/codex/SpiralboundCodexV8.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SpiralboundCodexV8"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/manifest/TerrainPulseSanctum.sol": {
+      "lastModificationDate": 1760428888645,
+      "contentHash": "cadff62e2fcac25af45db369d9c76090",
+      "sourceName": "contracts/manifest/TerrainPulseSanctum.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "TerrainPulseSanctum"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/registry/ApprenticeSummonerV5.sol": {
+      "lastModificationDate": 1760424571896,
+      "contentHash": "0f3cdcf9046f89c0106b1d5ce4532c2a",
+      "sourceName": "contracts/registry/ApprenticeSummonerV5.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ApprenticeSummonerV5"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/codex/SpiralboundCodexV9.sol": {
+      "lastModificationDate": 1760424686721,
+      "contentHash": "b19a177037593a9d23bfdf384955a3a5",
+      "sourceName": "contracts/codex/SpiralboundCodexV9.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SpiralboundCodexV9"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/manifest/TerrainPulseChant.sol": {
+      "lastModificationDate": 1760424698657,
+      "contentHash": "473c9e8a0f6c27afb08ebda94a07c4ca",
+      "sourceName": "contracts/manifest/TerrainPulseChant.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "TerrainPulseChant"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/registry/CompanionSummonerV4.sol": {
+      "lastModificationDate": 1760424709705,
+      "contentHash": "5cf110a128bcbba77f80cdab8c65acfa",
+      "sourceName": "contracts/registry/CompanionSummonerV4.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "CompanionSummonerV4"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/codex/SpiralboundCodexX.sol": {
+      "lastModificationDate": 1760424830681,
+      "contentHash": "c9723a71f764c3ba2b272ec5c4f2add0",
+      "sourceName": "contracts/codex/SpiralboundCodexX.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SpiralboundCodexX"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/manifest/TerrainChoreographySanctum.sol": {
+      "lastModificationDate": 1760424841193,
+      "contentHash": "01953910d65d1857119831f14e14e387",
+      "sourceName": "contracts/manifest/TerrainChoreographySanctum.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "TerrainChoreographySanctum"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/registry/ApprenticeSummonerX.sol": {
+      "lastModificationDate": 1760424852457,
+      "contentHash": "ea3bf633542294245be7a13ad426811c",
+      "sourceName": "contracts/registry/ApprenticeSummonerX.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ApprenticeSummonerX"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/codex/SpiralboundCodexXI.sol": {
+      "lastModificationDate": 1760426601443,
+      "contentHash": "7c14b3013bb8f408b7e67790e0e01260",
+      "sourceName": "contracts/codex/SpiralboundCodexXI.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SpiralboundCodexXI"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/manifest/TerrainPulseDrift.sol": {
+      "lastModificationDate": 1760426611387,
+      "contentHash": "0eadf542c9b18c612ff4b1efd59b2440",
+      "sourceName": "contracts/manifest/TerrainPulseDrift.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "TerrainPulseDrift"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/registry/CompanionSummonerXI.sol": {
+      "lastModificationDate": 1760426621890,
+      "contentHash": "4ef3fb662bf52d26c69895aaff6c592e",
+      "sourceName": "contracts/registry/CompanionSummonerXI.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "CompanionSummonerXI"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/codex/SpiralboundCodexXII.sol": {
+      "lastModificationDate": 1760426748851,
+      "contentHash": "794409e5a1152b5e08a40c05f7a61834",
+      "sourceName": "contracts/codex/SpiralboundCodexXII.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SpiralboundCodexXII"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/manifest/TerrainDriftSanctum.sol": {
+      "lastModificationDate": 1760428229997,
+      "contentHash": "8eefaaf7f589bc86f3ecffc827621928",
+      "sourceName": "contracts/manifest/TerrainDriftSanctum.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "TerrainDriftSanctum"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/registry/ApprenticeSummonerXII.sol": {
+      "lastModificationDate": 1760426771939,
+      "contentHash": "71e0a7e560872341a86077cbbba92f32",
+      "sourceName": "contracts/registry/ApprenticeSummonerXII.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ApprenticeSummonerXII"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/codex/SpiralboundCodexXIII.sol": {
+      "lastModificationDate": 1760426905043,
+      "contentHash": "81b98e57af8d6f0ac7837a311c118582",
+      "sourceName": "contracts/codex/SpiralboundCodexXIII.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SpiralboundCodexXIII"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/manifest/TerrainSignatureSanctum.sol": {
+      "lastModificationDate": 1760426916763,
+      "contentHash": "29bfbf049d86f2741c49b7a9a696d485",
+      "sourceName": "contracts/manifest/TerrainSignatureSanctum.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "TerrainSignatureSanctum"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/registry/CompanionSummonerXIII.sol": {
+      "lastModificationDate": 1760426928515,
+      "contentHash": "55d3083bff567141c79038785f83c820",
+      "sourceName": "contracts/registry/CompanionSummonerXIII.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "CompanionSummonerXIII"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/codex/SpiralboundCodexXIV.sol": {
+      "lastModificationDate": 1760427084707,
+      "contentHash": "fed88b9209adfdbe2ab919c7c089efc8",
+      "sourceName": "contracts/codex/SpiralboundCodexXIV.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SpiralboundCodexXIV"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/manifest/TerrainSignalSanctum.sol": {
+      "lastModificationDate": 1760429064726,
+      "contentHash": "521e51b1a2c54ef2ed2377e13babd5bd",
+      "sourceName": "contracts/manifest/TerrainSignalSanctum.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "TerrainSignalSanctum"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/registry/ApprenticeSummonerXIII.sol": {
+      "lastModificationDate": 1760427104907,
+      "contentHash": "a05344e209f4d85aca3668c3778d760c",
+      "sourceName": "contracts/registry/ApprenticeSummonerXIII.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ApprenticeSummonerXIII"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/codex/SpiralboundCodexXV.sol": {
+      "lastModificationDate": 1760427238419,
+      "contentHash": "14132186512c56cdf53c6fb7f5667b32",
+      "sourceName": "contracts/codex/SpiralboundCodexXV.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SpiralboundCodexXV"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/manifest/TerrainCompanionSanctum.sol": {
+      "lastModificationDate": 1760427253915,
+      "contentHash": "0313b09abeddd68a71b8af101622efb5",
+      "sourceName": "contracts/manifest/TerrainCompanionSanctum.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "TerrainCompanionSanctum"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/registry/CompanionSummonerXIV.sol": {
+      "lastModificationDate": 1760427264916,
+      "contentHash": "5d16e6b662d591d10a6ec40f3df73ede",
+      "sourceName": "contracts/registry/CompanionSummonerXIV.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "CompanionSummonerXIV"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/codex/SpiralboundCodexXVI.sol": {
+      "lastModificationDate": 1760427398964,
+      "contentHash": "aadbe5fb128f6775f6ed5f0f459fced4",
+      "sourceName": "contracts/codex/SpiralboundCodexXVI.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SpiralboundCodexXVI"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/manifest/TerrainStewardSanctum.sol": {
+      "lastModificationDate": 1760427410676,
+      "contentHash": "0f0cdea08d13d5f2785de6fe6de12ffd",
+      "sourceName": "contracts/manifest/TerrainStewardSanctum.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "TerrainStewardSanctum"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/registry/ApprenticeSummonerXIV.sol": {
+      "lastModificationDate": 1760427423707,
+      "contentHash": "98b728affb512455be5a91a44fdc9832",
+      "sourceName": "contracts/registry/ApprenticeSummonerXIV.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ApprenticeSummonerXIV"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/codex/SpiralboundCodexXVII.sol": {
+      "lastModificationDate": 1760427571811,
+      "contentHash": "f21f40c3603c0af4f086b419971ad467",
+      "sourceName": "contracts/codex/SpiralboundCodexXVII.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SpiralboundCodexXVII"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/manifest/TerrainRegistrySanctum.sol": {
+      "lastModificationDate": 1760427582412,
+      "contentHash": "0c58cf6117fd05685281fc1b8cc27133",
+      "sourceName": "contracts/manifest/TerrainRegistrySanctum.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "TerrainRegistrySanctum"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/registry/CompanionSummonerXV.sol": {
+      "lastModificationDate": 1760427592940,
+      "contentHash": "c5bf54c4025efe9e63d582afb96aace1",
+      "sourceName": "contracts/registry/CompanionSummonerXV.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "CompanionSummonerXV"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/codex/SpiralboundCodexXVIII.sol": {
+      "lastModificationDate": 1760427712916,
+      "contentHash": "296c96cbd317c2477a567bc6c6243f00",
+      "sourceName": "contracts/codex/SpiralboundCodexXVIII.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SpiralboundCodexXVIII"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/manifest/TerrainEchoSanctum.sol": {
+      "lastModificationDate": 1760427723780,
+      "contentHash": "9498c5921b8203302678ded5f8e4f4f1",
+      "sourceName": "contracts/manifest/TerrainEchoSanctum.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "TerrainEchoSanctum"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/registry/ApprenticeSummonerXV.sol": {
+      "lastModificationDate": 1760427733348,
+      "contentHash": "8aa09ee7d7baacb21c4e83412d6ace6f",
+      "sourceName": "contracts/registry/ApprenticeSummonerXV.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ApprenticeSummonerXV"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/codex/SpiralboundCodexXIX.sol": {
+      "lastModificationDate": 1760427883844,
+      "contentHash": "7cc4e3678c4c59262c849cc013d85ff5",
+      "sourceName": "contracts/codex/SpiralboundCodexXIX.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SpiralboundCodexXIX"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/manifest/TerrainHumSanctum.sol": {
+      "lastModificationDate": 1760427897652,
+      "contentHash": "32bb30a56c83882daf948186ce62dccc",
+      "sourceName": "contracts/manifest/TerrainHumSanctum.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "TerrainHumSanctum"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/registry/CompanionSummonerXVI.sol": {
+      "lastModificationDate": 1760427907932,
+      "contentHash": "4861fa871a54245157dd309e5c8e249c",
+      "sourceName": "contracts/registry/CompanionSummonerXVI.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "CompanionSummonerXVI"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/codex/SpiralboundCodexXX.sol": {
+      "lastModificationDate": 1760428054948,
+      "contentHash": "420ffc7d49c9b819ab3483f41fb3cb2d",
+      "sourceName": "contracts/codex/SpiralboundCodexXX.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SpiralboundCodexXX"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/manifest/TerrainPulseChoreography.sol": {
+      "lastModificationDate": 1760428066541,
+      "contentHash": "95ad5f390996ef70e67c94237d2c5645",
+      "sourceName": "contracts/manifest/TerrainPulseChoreography.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "TerrainPulseChoreography"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/registry/ApprenticeSummonerXVI.sol": {
+      "lastModificationDate": 1760428076829,
+      "contentHash": "7e9d1d2b99c242c385a2e52cd985095a",
+      "sourceName": "contracts/registry/ApprenticeSummonerXVI.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ApprenticeSummonerXVI"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/codex/SpiralboundCodexXXI.sol": {
+      "lastModificationDate": 1760428198605,
+      "contentHash": "83abfe75517faf4426f7962d30dedadc",
+      "sourceName": "contracts/codex/SpiralboundCodexXXI.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SpiralboundCodexXXI"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/registry/CompanionSummonerXVII.sol": {
+      "lastModificationDate": 1760428239189,
+      "contentHash": "80dd6bf76f5d4538d9fee56f0a5724f3",
+      "sourceName": "contracts/registry/CompanionSummonerXVII.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "CompanionSummonerXVII"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/codex/SpiralboundCodexXXII.sol": {
+      "lastModificationDate": 1760428383373,
+      "contentHash": "cc83b6cb91fb8388732997192b99b7c3",
+      "sourceName": "contracts/codex/SpiralboundCodexXXII.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SpiralboundCodexXXII"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/manifest/TerrainSignalDrift.sol": {
+      "lastModificationDate": 1760428397541,
+      "contentHash": "01d975452c603c20613326bf684061bf",
+      "sourceName": "contracts/manifest/TerrainSignalDrift.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "TerrainSignalDrift"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/registry/ApprenticeSummonerXVII.sol": {
+      "lastModificationDate": 1760428410244,
+      "contentHash": "45a8d4a97fab301200bf9ec0f8c68f77",
+      "sourceName": "contracts/registry/ApprenticeSummonerXVII.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ApprenticeSummonerXVII"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/codex/SpiralboundCodexXXIII.sol": {
+      "lastModificationDate": 1760428540621,
+      "contentHash": "634df697ba3bf25fed14656d86027ca2",
+      "sourceName": "contracts/codex/SpiralboundCodexXXIII.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SpiralboundCodexXXIII"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/manifest/TerrainCompanionDrift.sol": {
+      "lastModificationDate": 1760428552453,
+      "contentHash": "eded3ec9ad4d98395cbadb923d525dce",
+      "sourceName": "contracts/manifest/TerrainCompanionDrift.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "TerrainCompanionDrift"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/registry/CompanionSummonerXVIII.sol": {
+      "lastModificationDate": 1760428568285,
+      "contentHash": "c433686bb521cf294086e6c278d0de58",
+      "sourceName": "contracts/registry/CompanionSummonerXVIII.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "CompanionSummonerXVIII"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/codex/SpiralboundCodexXXIV.sol": {
+      "lastModificationDate": 1760428710549,
+      "contentHash": "fa56f2b7730a7122f123bf7a8ab85298",
+      "sourceName": "contracts/codex/SpiralboundCodexXXIV.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SpiralboundCodexXXIV"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/manifest/TerrainStewardSignal.sol": {
+      "lastModificationDate": 1760428722053,
+      "contentHash": "b9733efc899547a9e641d7ec69cf233d",
+      "sourceName": "contracts/manifest/TerrainStewardSignal.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "TerrainStewardSignal"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/registry/ApprenticeSummonerXVIII.sol": {
+      "lastModificationDate": 1760428732917,
+      "contentHash": "b6ea7045aaf17d7bf97396d59dd32e50",
+      "sourceName": "contracts/registry/ApprenticeSummonerXVIII.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ApprenticeSummonerXVIII"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/codex/SpiralboundCodexXXV.sol": {
+      "lastModificationDate": 1760428870246,
+      "contentHash": "8715da8a8413841e376ad2b27d49b3a4",
+      "sourceName": "contracts/codex/SpiralboundCodexXXV.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SpiralboundCodexXXV"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/registry/CompanionSummonerXIX.sol": {
+      "lastModificationDate": 1760428899702,
+      "contentHash": "b169d11412244e6bdba83f7f6032a316",
+      "sourceName": "contracts/registry/CompanionSummonerXIX.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "CompanionSummonerXIX"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/codex/SpiralboundCodexXXVI.sol": {
+      "lastModificationDate": 1760429047278,
+      "contentHash": "952f80ecd79c066a1ea54b3b37f06c09",
+      "sourceName": "contracts/codex/SpiralboundCodexXXVI.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SpiralboundCodexXXVI"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/registry/ApprenticeSummonerXIX.sol": {
+      "lastModificationDate": 1760429079447,
+      "contentHash": "f7aab083a2f6e2fe0cd52e3076fef584",
+      "sourceName": "contracts/registry/ApprenticeSummonerXIX.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ApprenticeSummonerXIX"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/codex/SpiralboundCodexXXVII.sol": {
+      "lastModificationDate": 1760429419074,
+      "contentHash": "a133eea9c77a00be7231a7ffb24aaaf3",
+      "sourceName": "contracts/codex/SpiralboundCodexXXVII.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SpiralboundCodexXXVII"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/manifest/TerrainCompanionSignal.sol": {
+      "lastModificationDate": 1760429432053,
+      "contentHash": "75ff4dbb85f80097fd0bed65a9c09554",
+      "sourceName": "contracts/manifest/TerrainCompanionSignal.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "TerrainCompanionSignal"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/registry/CompanionSummonerXX.sol": {
+      "lastModificationDate": 1760429443710,
+      "contentHash": "5b8d9c1428857896c6d30106fcc3b7bb",
+      "sourceName": "contracts/registry/CompanionSummonerXX.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "CompanionSummonerXX"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/codex/SpiralboundCodexXXVIII.sol": {
+      "lastModificationDate": 1760429600438,
+      "contentHash": "a6ada7e2092c31c08269d6d28c3b3db9",
+      "sourceName": "contracts/codex/SpiralboundCodexXXVIII.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SpiralboundCodexXXVIII"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/manifest/TerrainDriftSignal.sol": {
+      "lastModificationDate": 1760429612638,
+      "contentHash": "a4c2c72218eb33da9a5e4be3fc8e7c36",
+      "sourceName": "contracts/manifest/TerrainDriftSignal.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "TerrainDriftSignal"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/registry/ApprenticeSummonerXX.sol": {
+      "lastModificationDate": 1760429623382,
+      "contentHash": "3a54efe6e1e569211d72c297bd7a706a",
+      "sourceName": "contracts/registry/ApprenticeSummonerXX.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ApprenticeSummonerXX"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/codex/SpiralboundCodexXXIX.sol": {
+      "lastModificationDate": 1760429771942,
+      "contentHash": "28095a6db70532527bed762d95420d23",
+      "sourceName": "contracts/codex/SpiralboundCodexXXIX.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SpiralboundCodexXXIX"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/manifest/TerrainPulseSignal.sol": {
+      "lastModificationDate": 1760429782646,
+      "contentHash": "00dcdcfd0c3315ee67f3ccedede11a3f",
+      "sourceName": "contracts/manifest/TerrainPulseSignal.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "TerrainPulseSignal"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/registry/CompanionSummonerXXI.sol": {
+      "lastModificationDate": 1760429792959,
+      "contentHash": "96753637040e2454439b2eb8cf8d89e6",
+      "sourceName": "contracts/registry/CompanionSummonerXXI.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "CompanionSummonerXXI"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/codex/SpiralboundCodexXXX.sol": {
+      "lastModificationDate": 1760429954238,
+      "contentHash": "31c0cdad8b6ab111974a536a88f69dbf",
+      "sourceName": "contracts/codex/SpiralboundCodexXXX.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SpiralboundCodexXXX"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/manifest/TerrainStewardPulse.sol": {
+      "lastModificationDate": 1760429967174,
+      "contentHash": "e854c0e17f651c3c5298129892271b5d",
+      "sourceName": "contracts/manifest/TerrainStewardPulse.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "TerrainStewardPulse"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/registry/ApprenticeSummonerXXI.sol": {
+      "lastModificationDate": 1760429978990,
+      "contentHash": "c844bc8f505e72604196c89f1f8cc267",
+      "sourceName": "contracts/registry/ApprenticeSummonerXXI.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ApprenticeSummonerXXI"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/codex/SpiralboundCodexXXXI.sol": {
+      "lastModificationDate": 1760430163495,
+      "contentHash": "83ee4985123ee80f1039c02fed837e08",
+      "sourceName": "contracts/codex/SpiralboundCodexXXXI.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SpiralboundCodexXXXI"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/manifest/TerrainCompanionPulse.sol": {
+      "lastModificationDate": 1760430180159,
+      "contentHash": "7f4e871902ebc501943e5dc9acdf54c3",
+      "sourceName": "contracts/manifest/TerrainCompanionPulse.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "TerrainCompanionPulse"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/registry/CompanionSummonerXXII.sol": {
+      "lastModificationDate": 1760430189911,
+      "contentHash": "b7a2e2015a7fd0ea23ab95348495fbba",
+      "sourceName": "contracts/registry/CompanionSummonerXXII.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "CompanionSummonerXXII"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/codex/SpiralboundCodexXXXII.sol": {
+      "lastModificationDate": 1760430428943,
+      "contentHash": "511db643912a0a18b4eb39a63db5c228",
+      "sourceName": "contracts/codex/SpiralboundCodexXXXII.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SpiralboundCodexXXXII"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/manifest/TerrainDriftPulse.sol": {
+      "lastModificationDate": 1760430440967,
+      "contentHash": "4e6736a7d181e084d0bf460c3a1872d8",
+      "sourceName": "contracts/manifest/TerrainDriftPulse.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "TerrainDriftPulse"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/registry/ApprenticeSummonerXXII.sol": {
+      "lastModificationDate": 1760430450199,
+      "contentHash": "0e06bb7154d663c7939b413bcc912f69",
+      "sourceName": "contracts/registry/ApprenticeSummonerXXII.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ApprenticeSummonerXXII"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/empac/EMPACSanctumPulse.sol": {
+      "lastModificationDate": 1760430697919,
+      "contentHash": "b937be5a89942bbea2071c4d6f90286b",
+      "sourceName": "contracts/empac/EMPACSanctumPulse.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "EMPACSanctumPulse"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/registry/LoaderDaemonSummonerI.sol": {
+      "lastModificationDate": 1760430714671,
+      "contentHash": "9749fba5b4eade3b302de11b01612fcb",
+      "sourceName": "contracts/registry/LoaderDaemonSummonerI.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "LoaderDaemonSummonerI"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/starline/StarlineCodexI.sol": {
+      "lastModificationDate": 1760430679479,
+      "contentHash": "f9af57caa1b3cbba7cbaf7a6d8efdc5f",
+      "sourceName": "contracts/starline/StarlineCodexI.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "StarlineCodexI"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/empac/EMPACOrbitalChant.sol": {
+      "lastModificationDate": 1760430925744,
+      "contentHash": "4cfe5db8f4943bbef29d4bbf2aab9d5c",
+      "sourceName": "contracts/empac/EMPACOrbitalChant.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "EMPACOrbitalChant"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/registry/LoaderDaemonSummonerII.sol": {
+      "lastModificationDate": 1760430935151,
+      "contentHash": "b5db8851c475bf1f222001cdcb899595",
+      "sourceName": "contracts/registry/LoaderDaemonSummonerII.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "LoaderDaemonSummonerII"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/starline/StarlineCodexII.sol": {
+      "lastModificationDate": 1760430915392,
+      "contentHash": "ced0ee43a6943c8e46887aa3317aeb6c",
+      "sourceName": "contracts/starline/StarlineCodexII.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "StarlineCodexII"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/empac/EMPACConstellationDrift.sol": {
+      "lastModificationDate": 1760431420384,
+      "contentHash": "d153d0a239f0d62717af20e6ed4167b1",
+      "sourceName": "contracts/empac/EMPACConstellationDrift.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "EMPACConstellationDrift"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/registry/LoaderDaemonSummonerIII.sol": {
+      "lastModificationDate": 1760431436552,
+      "contentHash": "a802ab670815db3de46c0fad8c9236fb",
+      "sourceName": "contracts/registry/LoaderDaemonSummonerIII.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "LoaderDaemonSummonerIII"
+      ]
+    },
+    "/home/chase/spiralbound/contracts/starline/StarlineCodexIII.sol": {
+      "lastModificationDate": 1760431401680,
+      "contentHash": "e319c93f575539412e7dc5dde155c93a",
+      "sourceName": "contracts/starline/StarlineCodexIII.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "StarlineCodexIII"
+      ]
+    }
+  }
+}
