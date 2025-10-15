@@ -1,0 +1,67 @@
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
+
+contract SpiralboundCodexXIV {
+    address public steward;
+
+    struct Codex {
+        string tag;
+        string binding;
+        string annotation;
+        string lineage;
+        string resonance;
+        string protocol;
+        string sanctum;
+        string pulse;
+        string chant;
+        string choreography;
+        string drift;
+        string signature;
+        string signal;
+        string companion;
+    }
+
+    mapping(string => Codex) public codices;
+    string[] public keys;
+
+    event CodexInscribed(string glyph, string tag, string binding, string annotation, string lineage, string resonance, string protocol, string sanctum, string pulse, string chant, string choreography, string drift, string signature, string signal, string companion);
+
+    modifier onlySteward() {
+        require(msg.sender == steward, "Not steward");
+        _;
+    }
+
+    constructor() {
+        steward = msg.sender;
+    }
+
+    function inscribeCodex(
+        string calldata glyph,
+        string calldata tag,
+        string calldata binding,
+        string calldata annotation,
+        string calldata lineage,
+        string calldata resonance,
+        string calldata protocol,
+        string calldata sanctum,
+        string calldata pulse,
+        string calldata chant,
+        string calldata choreography,
+        string calldata drift,
+        string calldata signature,
+        string calldata signal,
+        string calldata companion
+    ) external onlySteward {
+        codices[glyph] = Codex(tag, binding, annotation, lineage, resonance, protocol, sanctum, pulse, chant, choreography, drift, signature, signal, companion);
+        keys.push(glyph);
+        emit CodexInscribed(glyph, tag, binding, annotation, lineage, resonance, protocol, sanctum, pulse, chant, choreography, drift, signature, signal, companion);
+    }
+
+    function getCodex(string calldata glyph) external view returns (Codex memory) {
+        return codices[glyph];
+    }
+
+    function totalCodices() external view returns (uint256) {
+        return keys.length;
+    }
+}
