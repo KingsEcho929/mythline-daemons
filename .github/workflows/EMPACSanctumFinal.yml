@@ -1,0 +1,24 @@
+name: EMPAC Sanctum Final
+
+on:
+  push:
+    paths:
+      - 'contracts/EMPACSanctumFinal.sol'
+
+jobs:
+  sanctum:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Compile EMPAC Sanctum Final
+        run: npx hardhat compile
