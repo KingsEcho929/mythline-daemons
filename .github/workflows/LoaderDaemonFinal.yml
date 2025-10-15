@@ -1,0 +1,24 @@
+name: Loader Daemon Final
+
+on:
+  push:
+    paths:
+      - 'contracts/LoaderDaemonFinal.sol'
+
+jobs:
+  summon:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Compile Loader Daemon Final
+        run: npx hardhat compile
