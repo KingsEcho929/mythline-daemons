@@ -1,0 +1,24 @@
+name: Companion Registry Final
+
+on:
+  push:
+    paths:
+      - 'contracts/CompanionRegistryFinal.sol'
+
+jobs:
+  registry:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Compile Companion Registry Final
+        run: npx hardhat compile
