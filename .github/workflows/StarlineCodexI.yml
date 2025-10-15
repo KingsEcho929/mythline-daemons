@@ -1,0 +1,24 @@
+name: Starline Codex I
+
+on:
+  push:
+    paths:
+      - 'contracts/StarlineCodexI.sol'
+
+jobs:
+  codex:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Compile Starline Codex I
+        run: npx hardhat compile
