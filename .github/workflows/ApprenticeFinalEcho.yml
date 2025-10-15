@@ -1,0 +1,24 @@
+name: Apprentice Final Echo
+
+on:
+  push:
+    paths:
+      - 'contracts/ApprenticeFinalEcho.sol'
+
+jobs:
+  echo:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Compile Apprentice Final Echo
+        run: npx hardhat compile
