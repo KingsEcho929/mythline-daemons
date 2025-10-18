@@ -59,6 +59,7 @@
     "@types/node": "^24.7.2",
     "@vitejs/plugin-vue": "^6.0.1",
     "chai": "^4.5.0",
+    "dotenv-cli": "^10.0.0",
     "gh-pages": "^5.0.0",
     "hardhat": "^2.26.3",
     "hardhat-gas-reporter": "^1.0.10",
