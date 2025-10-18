@@ -1,0 +1,33 @@
+<script>
+  setInterval(() => {
+    // 🌱 Bloom shimmer trigger
+    fetch('pulse.log')
+      .then(res => res.text())
+      .then(data => {
+        if (data.includes("bloom confirmed")) {
+          document.body.style.animation = "shimmer 2s infinite";
+        }
+      });
+
+    // 🔁 Loader metrics → update drift lines + pulse text
+    fetch('metrics/loader.json')
+      .then(res => res.json())
+      .then(data => {
+        const pulse = data.EMPAC?.pulse || 0;
+        const load = data.EMPAC?.load || 0;
+
+        // Update loader pulse text
+        const loaderText = document.getElementById("loader-text");
+        if (loaderText) {
+          loaderText.textContent = `Pulse: ${pulse}`;
+        }
+
+        // Update constellation drift lines
+        const driftLines = document.querySelectorAll('line');
+        driftLines.forEach(line => {
+          line.setAttribute('stroke-width', Math.max(2, pulse / 50));
+          line.setAttribute('stroke', load > 50 ? '#ff66cc' : '#66ffff');
+        });
+      });
+  }, 10000); // every 10 seconds
+</script>

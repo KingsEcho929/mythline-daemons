@@ -8,3 +8,14 @@ h1, h2 {
   color: #ffccff;
   text-shadow: 0 0 10px #ff66cc;
 }
+a {
+  color: #66ffff;
+}
+.bloom-log {
+  transition: transform 0.3s ease, text-shadow 0.3s ease;
+  display: inline-block;
+}
+.bloom-log:hover {
+  transform: scale(1.05);
+  text-shadow: 0 0 12px #ff66cc;
+}

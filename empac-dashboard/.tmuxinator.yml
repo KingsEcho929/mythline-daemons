@@ -1,0 +1,11 @@
+name: empac-dashboard
+root: ~/empac-dashboard
+
+windows:
+  - dev:
+      layout: tiled
+      panes:
+        - npm run dev
+        - node server.js
+        - node ws-server.js
+        - node scripts/loader-daemon.js

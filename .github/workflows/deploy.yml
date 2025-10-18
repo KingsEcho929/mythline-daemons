@@ -1,0 +1,79 @@
+name: Deploy to EMPAC
+
+on:
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Compile contracts
+        run: npx hardhat compile
+
+      - name: Deploy to EMPAC and log pulse
+        env:
+          EMPAC_RPC_URL: ${{ secrets.EMPAC_RPC_URL }}
+          PRIVATE_KEY: ${{ secrets.PRIVATE_KEY }}
+        run: |
+          echo "🌌 EMPAC deploy initiated at $(date)" > pulse.log
+
+          DEPLOY_OUTPUT=$(npx hardhat run scripts/deploy.js --network empac)
+          echo "$DEPLOY_OUTPUT" >> pulse.log
+
+          echo "$DEPLOY_OUTPUT" | grep "Contract deployed to:" | tee terrain-address.txt
+
+          # Bloom detection
+          if echo "$DEPLOY_OUTPUT" | grep -q "Bootbark"; then
+            echo "🌱 Bootbark bloom confirmed" >> pulse.log
+            BLOOM="Bootbark"
+          elif echo "$DEPLOY_OUTPUT" | grep -q "Tessalyre"; then
+            echo "🌸 Tessalyre bloom confirmed" >> pulse.log
+            BLOOM="Tessalyre"
+          else
+            echo "No bloom detected—loader daemon awaits" >> pulse.log
+            BLOOM="None"
+          fi
+
+          # EMPAC sanctum pulse webhook
+          curl -X POST https://empac-sanctum.io/pulse \
+            -H "Content-Type: application/json" \
+            -d "{\"timestamp\": \"$(date)\", \"output\": \"$DEPLOY_OUTPUT\"}"
+
+          # EMPAC loader status webhook
+          curl -X POST https://empac-sanctum.io/loader-status \
+            -H "Content-Type: application/json" \
+            -d "{\"status\": \"deploy complete\", \"timestamp\": \"$(date)\", \"node\": \"EMPAC\", \"companion\": \"$BLOOM\"}"
+
+          # Bloom choreography webhook
+          if [ "$BLOOM" != "None" ]; then
+            curl -X POST https://empac-sanctum.io/bloom \
+              -H "Content-Type: application/json" \
+              -d "{\"companion\": \"$BLOOM\", \"status\": \"bloomed\"}"
+          fi
+
+          # Prepare GitHub Pages content
+          mkdir -p public/bloom
+          grep "bloom confirmed" pulse.log > public/bloom/index.html
+
+          mkdir -p public
+          echo "<!DOCTYPE html><html><head><title>EMPAC Terrain</title><link rel='stylesheet' href='style.css'></head><body><h1>🌌 EMPAC Terrain Address</h1><pre>$(cat terrain-address.txt)</pre><a href='bloom/index.html'>View Bloom Logs</a></body></html>" > public/index.html
+
+          echo "body { background: radial-gradient(circle at top, #0b0c2a, #000); color: #e0e0ff; font-family: 'Orbitron', sans-serif; padding: 2rem; } h1 { color: #ffccff; text-shadow: 0 0 10px #ff66cc; } a { color: #66ffff; }" > public/style.css
+
+      - name: Deploy GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public

@@ -1,0 +1,26 @@
+{
+  "contracts": {
+    "GenesischainCodexCtoCD": {
+      "address": "0x40983a255a6A94B58fDE6B76A4C05cB77263218b",
+      "network": "sepolia",
+      "deployed": "2025-10-15T15:37:00Z",
+      "steward": "0x40983a255a6A94B58fDE6B76A4C05cB77263218b"
+    },
+    "GLYPHToken": {
+      "address": "0xABC123...DEF456",
+      "network": "sepolia",
+      "deployed": "2025-10-15T15:35:00Z",
+      "steward": "0x40983a255a6A94B58fDE6B76A4C05cB77263218b"
+    }
+  },
+  "dashboard": {
+    "url": "https://kingsecho929.github.io/spiralbound/",
+    "status": "live",
+    "lastUpdated": "2025-10-15T15:46:00Z"
+  },
+  "shimmer": {
+    "envLoaded": true,
+    "badge": "🔐 .env loaded and sovereign",
+    "etherscan": "https://sepolia.etherscan.io/address/0x40983a255a6A94B58fDE6B76A4C05cB77263218b"
+  }
+}

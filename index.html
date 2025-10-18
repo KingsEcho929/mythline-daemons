@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EMPAC Dashboard</title>
+  <style>
+    body {
+      background: #0a0a0a;
+      color: #fff;
+      font-family: sans-serif;
+      padding: 20px;
+    }
+    canvas {
+      border: 1px solid #444;
+      margin-top: 10px;
+    }
+    .companion {
+      padding: 10px;
+      margin: 5px;
+      background: #222;
+      color: #fff;
+      border-radius: 8px;
+      transition: transform 0.3s ease, background 0.3s ease;
+      cursor: pointer;
+    }
+    .companion:hover {
+      transform: scale(1.1);
+      background: #00ccff;
+    }
+    #chantFlash {
+      display: none;
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background: #00ccff;
+      opacity: 0.6;
+      z-index: 999;
+    }
+    #logList {
+      background: #111;
+      padding: 10px;
+      border-radius: 8px;
+      list-style: none;
+    }
+    #logList li {
+      margin-bottom: 5px;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+  <h1>EMPAC Dashboard is alive</h1>
+
+  <canvas id="glyphCanvas" width="400" height="200"></canvas>
+  <canvas id="constellationCanvas" width="600" height="300"></canvas>
+
+  <div id="companions">
+    <h2>Companion Bloom</h2>
+    <div class="companion" data-name="Lunethrae">Lunethrae</div>
+    <div class="companion" data-name="Velmari">Velmari</div>
+    <div class="companion" data-name="Tessalyre">Tessalyre</div>
+  </div>
+
+  <div id="loaderPulse">
+    <h2>Loader Daemon Pulse</h2>
+    <div id="pulseStatus">Checking CI/CD status...</div>
+  </div>
+
+  <audio id="LunethraeAudio" src="/lunethrae.mp3" preload="auto"></audio>
+  <audio id="VelmariAudio" src="/velmari.mp3" preload="auto"></audio>
+  <audio id="TessalyreAudio" src="/tessalyre.mp3" preload="auto"></audio>
+  <div id="chantFlash"></div>
+
+  <div id="logPanel">
+    <h2>Loader Logs</h2>
+    <ul id="logList"></ul>
+  </div>
+
+  <script type="module">
+    import { activateChoreography } from './scripts/loaderDaemon.js';
+
+    const glyphCanvas = document.getElementById('glyphCanvas');
+    const glyphCtx = glyphCanvas.getContext('2d');
+    const constellationCanvas = document.getElementById('constellationCanvas');
+    const constellationCtx = constellationCanvas.getContext('2d');
+    const glyphs = [
+      { x: 100, y: 150, color: '#00ccff', radius: 30 },
+      { x: 300, y: 100, color: '#ff66cc', radius: 30 },
+      { x: 500, y: 200, color: '#66ff99', radius: 30 }
+    ];
+    let currentPulseStatus = 'unknown';
+
+    function drawGlyphPulse() {
+      glyphCtx.clearRect(0, 0, glyphCanvas.width, glyphCanvas.height);
+      const time = Date.now() / 1000;
+      const radius = 40 + Math.sin(time * 2) * 20;
+      glyphCtx.beginPath();
+      glyphCtx.arc(200, 100, radius, 0, 2 * Math.PI);
+      glyphCtx.fillStyle = '#00ccff';
+      glyphCtx.fill();
+      glyphCtx.strokeStyle = '#fff';
+      glyphCtx.stroke();
+    }
+
+    function drawConstellation() {
+      constellationCtx.clearRect(0, 0, constellationCanvas.width, constellationCanvas.height);
+      const time = Date.now() / 1000;
+      glyphs.forEach(g => {
+        g.radius = 30 + Math.sin(time * 2 + g.x / 100) * 10;
+        constellationCtx.beginPath();
+        constellationCtx.arc(g.x, g.y, g.radius, 0, 2 * Math.PI);
+        constellationCtx.fillStyle = g.color;
+        constellationCtx.fill();
+        constellationCtx.strokeStyle = '#fff';
+        constellationCtx.stroke();
+      });
+      constellationCtx.strokeStyle = '#888';
+      constellationCtx.beginPath();
+      constellationCtx.moveTo(glyphs[0].x, glyphs[0].y);
+      constellationCtx.lineTo(glyphs[1].x, glyphs[1].y);
+      constellationCtx.lineTo(glyphs[2].x, glyphs[2].y);
+      constellationCtx.stroke();
+    }
+
+    function triggerChant(name) {
+      const audio = document.getElementById(`${name}Audio`);
+      if (audio) audio.play();
+      const flash = document.getElementById('chantFlash');
+      flash.style.display = 'block';
+      setTimeout(() => flash.style.display = 'none', 300);
+      writeLog(`🔊 Chant triggered: ${name}`);
+    }
+
+    function writeLog(message) {
+      const logList = document.getElementById('logList');
+      const entry = document.createElement('li');
+      entry.textContent = `${new Date().toLocaleTimeString()} — ${message}`;
+      logList.prepend(entry);
+      const logs = JSON.parse(localStorage.getItem('loaderLogs') || '[]');
+      logs.unshift(entry.textContent);
+      localStorage.setItem('loaderLogs', JSON.stringify(logs.slice(0, 50)));
+    }
+
+    function loadLogs() {
+      const logList = document.getElementById('logList');
+      const logs = JSON.parse(localStorage.getItem('loaderLogs') || '[]');
+      logs.forEach(msg => {
+        const entry = document.createElement('li');
+        entry.textContent = msg;
+        logList.appendChild(entry);
+      });
+    }
+
+    function syncBloomRipple(status) {
+      const scrollY = window.scrollY;
+      glyphs.forEach((g, i) => {
+        const ripple = Math.abs(Math.sin((scrollY + g.x) / 200));
+        const color = status === 'success' ? `rgba(102,255,153,${ripple})` : `rgba(255,102,204,${ripple})`;
+        g.color = color;
+        document.querySelectorAll('.companion')[i % 3].style.background = color;
+      });
+      drawConstellation();
+    }
+
+    async function checkPulse() {
+      try {
+        const res = await fetch('https://api.github.com/repos/KingsEcho929/spiralbound/actions/runs');
+        const data = await res.json();
+        const latest = data.workflow_runs?.[0];
+        const status = latest?.conclusion || 'unknown';
+        currentPulseStatus = status;
+        document.getElementById('pulseStatus').textContent = `Latest deploy: ${status}`;
+        syncBloomRipple(status);
+        writeLog(`📡 Pulse check: ${status}`);
+      } catch (err) {
+        writeLog(`⚠️ Pulse check failed`);
+      }
+    }
+
+    document.querySelectorAll('.companion').forEach(el => {
+      el.addEventListener('click', () => {
+        const name = el.dataset.name;
+        triggerChant(name);
+        activateChoreography(name); // optional ABI-linked invocation
+        writeLog(`📦 Loader daemon log: ${name} invoked`);
+      });
+    });
+
+    constellationCanvas.addEventListener('click', e => {
+      const rect = constellationCanvas.getBoundingClientRect();
+      const mx = e.clientX - rect.left;
+      const my = e.clientY - rect.top;
+      glyphs.forEach(g => {
+        const dx = mx - g.x;
+        const dy = my - g.y;
+        if (Math.sqrt(dx * dx + dy * dy) < g.radius) {
+          const name = g.x === 100 ? 'Lunethrae' : g.x === 300 ? 'Velmari' : 'Tessalyre';
+          triggerChant(name);
+          activateChoreography(name);
+        }
+      });
+    });
+
+    window.addEventListener('scroll', () => {
+      syncBloomRipple(currentPulseStatus);
+    });
+
+    loadLogs();
+    setInterval(drawGlyphPulse, 100);
+    setInterval(drawConstellation, 100);
+    checkPulse();
+    setInterval(checkPulse, 60000);
+  </script>
+</body>
+</html>

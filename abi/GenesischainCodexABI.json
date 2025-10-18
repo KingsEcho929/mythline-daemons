@@ -1,0 +1,41 @@
+[
+  {
+    "inputs": [
+      { "internalType": "address", "name": "_steward", "type": "address" },
+      { "internalType": "address", "name": "_glyphToken", "type": "address" }
+    ],
+    "stateMutability": "nonpayable",
+    "type": "constructor"
+  },
+  {
+    "inputs": [{ "internalType": "uint256", "name": "glyphId", "type": "uint256" }],
+    "name": "readGlyph",
+    "outputs": [
+      { "internalType": "string", "name": "chant", "type": "string" },
+      { "internalType": "string", "name": "companionName", "type": "string" }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      { "internalType": "uint256", "name": "glyphId", "type": "uint256" },
+      { "internalType": "string", "name": "chant", "type": "string" },
+      { "internalType": "string", "name": "companionName", "type": "string" }
+    ],
+    "name": "crownGlyph",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      { "indexed": true, "internalType": "uint256", "name": "glyphId", "type": "uint256" },
+      { "indexed": false, "internalType": "string", "name": "chant", "type": "string" },
+      { "indexed": false, "internalType": "string", "name": "companionName", "type": "string" }
+    ],
+    "name": "GlyphCrowned",
+    "type": "event"
+  }
+]

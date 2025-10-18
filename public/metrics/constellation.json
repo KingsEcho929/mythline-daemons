@@ -1,0 +1,8 @@
+curl -X POST https://empac-sanctum.io/constellation-drift \
+  -H "Content-Type: application/json" \
+  -d '{
+    "timestamp": "'$(date)'",
+    "companion": "'$BLOOM'",
+    "contract": "'$(cat terrain-address.txt)'",
+    "drift": "activated"
+  }' -o public/metrics/constellation.json

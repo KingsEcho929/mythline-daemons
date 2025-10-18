@@ -7,6 +7,7 @@
 </head>
 <body>
   <h1>🌱 Companion Bloom Logs</h1>
+  <pre id="bloom-log"></pre>
 
   <div id="bootbark" style="display:none;">
     <h2>Bootbark Bloomed</h2>
@@ -24,6 +25,16 @@
     fetch('../pulse.log')
       .then(res => res.text())
       .then(data => {
+        const log = document.getElementById("bloom-log");
+        data.split('\n').forEach(line => {
+          if (line.includes("bloom confirmed")) {
+            const span = document.createElement("span");
+            span.className = "bloom-log";
+            span.textContent = line;
+            log.appendChild(span);
+            log.appendChild(document.createElement("br"));
+          }
+        });
         if (data.includes("Bootbark bloom confirmed")) {
           document.getElementById("bootbark").style.display = "block";
         }
@@ -34,3 +45,4 @@
   </script>
 </body>
 </html>
+

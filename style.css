@@ -1,0 +1,66 @@
+body {
+  background: #0a0a0a;
+  color: #fff;
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+canvas {
+  border: 1px solid #444;
+  margin-top: 10px;
+}
+
+.companion {
+  padding: 10px;
+  margin: 5px;
+  background: #222;
+  color: #fff;
+  border-radius: 8px;
+  transition: transform 0.3s ease, background 0.3s ease;
+  cursor: pointer;
+}
+
+.companion:hover {
+  transform: scale(1.1);
+  background: #00ccff;
+}
+
+#chantFlash {
+  display: none;
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: #00ccff;
+  opacity: 0.6;
+  z-index: 999;
+}
+
+#logList {
+  background: #111;
+  padding: 10px;
+  border-radius: 8px;
+  list-style: none;
+}
+
+#logList li {
+  margin-bottom: 5px;
+  font-size: 0.9em;
+}
+
+.shimmer-pulse {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: radial-gradient(circle, #b6f0ff, #6c00ff);
+  color: white;
+  padding: 1em 2em;
+  border-radius: 12px;
+  animation: pulse 3s ease-out;
+}
+
+@keyframes pulse {
+  0% { opacity: 0; transform: scale(0.8); }
+  50% { opacity: 1; transform: scale(1.2); }
+  100% { opacity: 0; transform: scale(1.5); }
+}

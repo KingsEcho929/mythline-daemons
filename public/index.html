@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>EMPAC Terrain</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🌌 EMPAC Terrain Address</h1>
+  <pre id="terrain-address"></pre>
+  <a href="bloom/index.html">View Bloom Logs</a>
+
+  <!-- 🛰️ Constellation Drift -->
+  <h2>🛰️ Constellation Drift</h2>
+  <img src="metrics/constellation.svg" alt="EMPAC Constellation Map" style="width:100%; max-height:600px; margin-bottom:2rem;">
+
+  <!-- 🔁 Loader Daemon Metrics -->
+  <h2>🔁 Loader Daemon Metrics</h2>
+  <svg viewBox="0 0 400 400" width="100%" height="300">
+    <circle cx="200" cy="200" r="10" fill="#ffccff" />
+    <circle id="loader-pulse" cx="260" cy="200" r="6" fill="#66ffff">
+      <animate attributeName="cx" values="260;140;260" dur="4s" repeatCount="indefinite" />
+    </circle>
+    <text id="loader-text" x="270" y="195" fill="#e0e0ff" font-size="14">Pulse: --</text>
+  </svg>
+
+  <script>
+    // Load terrain address
+    fetch('terrain-address.txt')
+      .then(res => res.text())
+      .then(data => {
+        document.getElementById("terrain-address").textContent = data;
+      });
+
+    // Bloom shimmer + loader metrics + drift pulse
+    setInterval(() => {
+      fetch('pulse.log')
+        .then(res => res.text())
+        .then(data => {
+          if (data.includes("bloom confirmed")) {
+            document.body.style.animation = "shimmer 2s infinite";
+          }
+        });
+
+      fetch('metrics/loader.json')
+        .then(res => res.json())
+        .then(data => {
+          const pulse = data.EMPAC?.pulse || '--';
+          const load = data.EMPAC?.load || 0;
+
+          document.getElementById("loader-text").textContent = `Pulse: ${pulse}`;
+          const driftLines = document.querySelectorAll('line');
+          driftLines.forEach(line => {
+            line.setAttribute('stroke-width', Math.max(2, pulse / 50));
+            line.setAttribute('stroke', load > 50 ? '#ff66cc' : '#66ffff');
+          });
+        });
+    }, 10000);
+  </script>
+</body>
+</html>

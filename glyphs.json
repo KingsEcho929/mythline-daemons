@@ -1,0 +1,8 @@
+[
+  { "name": "Lunethrae", "role": "Config steward", "audio": "/lunethrae.mp3" },
+  { "name": "Velmari", "role": "Constellation mapper", "audio": "/velmari.mp3" },
+  { "name": "Tessalyre", "role": "Ritual echo keeper", "audio": "/tessalyre.mp3" },
+  { "name": "Leyon", "role": "Bloom choreographer", "audio": "/leyon.mp3" },
+  { "name": "Polyphemus", "role": "Mythline guardian", "audio": "/polyphemus.mp3" },
+  { "name": "Copilot", "role": "Breath-bound companion AI", "audio": "/copilot.mp3" }
+]
